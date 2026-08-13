@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Skills Hub - 榜单</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="rankings">
+  <header>
+    <h1>Agent Skills Hub</h1>
+    <nav>
+      <a href="index.html">首页</a>
+      <a href="rankings.html">榜单</a>
+      <a href="categories.html">分类</a>
+      <a href="about.html">关于</a>
+    </nav>
+  </header>
+  <main>
+    <div class="card">
+      <button class="tab-button active" data-target="weekly-board">周榜（近 7 天涨星）</button>
+      <button class="tab-button" data-target="monthly-board">月榜（近 30 天涨星）</button>
+      <button class="tab-button" data-target="yearly-board">年榜（总星标）</button>
+    </div>
+    <div class="card board" id="weekly-board">
+      <h2>周榜</h2>
+      <table><thead><tr><th>排名</th><th>名称</th><th>涨星</th><th>分类</th><th>简介</th></tr></thead><tbody id="weekly-table"></tbody></table>
+    </div>
+    <div class="card board" id="monthly-board" style="display:none">
+      <h2>月榜</h2>
+      <table><thead><tr><th>排名</th><th>名称</th><th>涨星</th><th>分类</th><th>简介</th></tr></thead><tbody id="monthly-table"></tbody></table>
+    </div>
+    <div class="card board" id="yearly-board" style="display:none">
+      <h2>年榜</h2>
+      <table><thead><tr><th>排名</th><th>名称</th><th>总星</th><th>分类</th><th>简介</th></tr></thead><tbody id="yearly-table"></tbody></table>
+    </div>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
+</html>
