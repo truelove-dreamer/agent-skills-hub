@@ -14,8 +14,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 101749,
-      "delta": 4774
+      "stars": 101754,
+      "delta": 4779
     },
     {
       "rank": 2,
@@ -30,8 +30,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 86706,
-      "delta": 4369
+      "stars": 86707,
+      "delta": 4370
     },
     {
       "rank": 3,
@@ -47,8 +47,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 271429,
-      "delta": 3683
+      "stars": 271430,
+      "delta": 3684
     },
     {
       "rank": 4,
@@ -64,8 +64,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 76041,
-      "delta": 3293
+      "stars": 76043,
+      "delta": 3295
     },
     {
       "rank": 5,
@@ -99,8 +99,8 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 168651,
-      "delta": 2059
+      "stars": 168655,
+      "delta": 2063
     },
     {
       "rank": 7,
@@ -115,8 +115,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 35378,
-      "delta": 1448
+      "stars": 35380,
+      "delta": 1450
     },
     {
       "rank": 8,
@@ -131,8 +131,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 4885,
-      "delta": 1298
+      "stars": 4886,
+      "delta": 1299
     },
     {
       "rank": 9,
@@ -148,8 +148,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 45248,
-      "delta": 996
+      "stars": 45249,
+      "delta": 997
     },
     {
       "rank": 10,
@@ -247,8 +247,8 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 72398,
-      "delta": 467
+      "stars": 72399,
+      "delta": 468
     },
     {
       "rank": 16,
@@ -264,8 +264,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 30171,
-      "delta": 466
+      "stars": 30172,
+      "delta": 467
     },
     {
       "rank": 17,
@@ -280,8 +280,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 5207,
-      "delta": 358
+      "stars": 5208,
+      "delta": 359
     },
     {
       "rank": 18,
@@ -296,8 +296,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 44866,
-      "delta": 330
+      "stars": 44867,
+      "delta": 331
     },
     {
       "rank": 19,
@@ -312,11 +312,27 @@
       "platforms": [
         "codex"
       ],
-      "stars": 24881,
-      "delta": 312
+      "stars": 24882,
+      "delta": 313
     },
     {
       "rank": 20,
+      "id": "pm-skills",
+      "name": "phuryn/pm-skills",
+      "repo": "https://github.com/phuryn/pm-skills",
+      "entry": "https://github.com/phuryn/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/README.md",
+      "description": "产品经理技能市场：100+ 技能覆盖发现、策略、执行与增长",
+      "categories": [
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 25217,
+      "delta": 296
+    },
+    {
+      "rank": 21,
       "id": "claude-plugins-official",
       "name": "anthropics/claude-plugins-official",
       "repo": "https://github.com/anthropics/claude-plugins-official",
@@ -330,22 +346,6 @@
       ],
       "stars": 33472,
       "delta": 295
-    },
-    {
-      "rank": 21,
-      "id": "pm-skills",
-      "name": "phuryn/pm-skills",
-      "repo": "https://github.com/phuryn/pm-skills",
-      "entry": "https://github.com/phuryn/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/README.md",
-      "description": "产品经理技能市场：100+ 技能覆盖发现、策略、执行与增长",
-      "categories": [
-        "product"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 25215,
-      "delta": 294
     },
     {
       "rank": 22,
@@ -593,8 +593,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 101749,
-      "delta": 15296
+      "stars": 101754,
+      "delta": 15301
     },
     {
       "rank": 2,
@@ -610,8 +610,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 271429,
-      "delta": 12558
+      "stars": 271430,
+      "delta": 12559
     },
     {
       "rank": 3,
@@ -627,8 +627,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 76041,
-      "delta": 10403
+      "stars": 76043,
+      "delta": 10405
     },
     {
       "rank": 4,
@@ -660,8 +660,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 86706,
-      "delta": 7326
+      "stars": 86707,
+      "delta": 7327
     },
     {
       "rank": 6,
@@ -678,8 +678,8 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 168651,
-      "delta": 5151
+      "stars": 168655,
+      "delta": 5155
     },
     {
       "rank": 7,
@@ -694,8 +694,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 35378,
-      "delta": 4716
+      "stars": 35380,
+      "delta": 4718
     },
     {
       "rank": 8,
@@ -711,8 +711,8 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 72398,
-      "delta": 2758
+      "stars": 72399,
+      "delta": 2759
     },
     {
       "rank": 9,
@@ -728,8 +728,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 45248,
-      "delta": 2585
+      "stars": 45249,
+      "delta": 2586
     },
     {
       "rank": 10,
@@ -810,8 +810,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 5207,
-      "delta": 1519
+      "stars": 5208,
+      "delta": 1520
     },
     {
       "rank": 15,
@@ -827,8 +827,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 30171,
-      "delta": 1489
+      "stars": 30172,
+      "delta": 1490
     },
     {
       "rank": 16,
@@ -843,8 +843,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 25215,
-      "delta": 1403
+      "stars": 25217,
+      "delta": 1405
     },
     {
       "rank": 17,
@@ -875,8 +875,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 44866,
-      "delta": 1245
+      "stars": 44867,
+      "delta": 1246
     },
     {
       "rank": 19,
@@ -957,8 +957,8 @@
       "platforms": [
         "codex"
       ],
-      "stars": 24881,
-      "delta": 739
+      "stars": 24882,
+      "delta": 740
     },
     {
       "rank": 24,
@@ -1157,7 +1157,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 271429,
+      "stars": 271430,
       "delta": null
     },
     {
@@ -1175,7 +1175,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 168651,
+      "stars": 168655,
       "delta": null
     },
     {
@@ -1191,7 +1191,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 101749,
+      "stars": 101754,
       "delta": null
     },
     {
@@ -1207,7 +1207,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 86706,
+      "stars": 86707,
       "delta": null
     },
     {
@@ -1224,7 +1224,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 76041,
+      "stars": 76043,
       "delta": null
     },
     {
@@ -1241,7 +1241,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 72398,
+      "stars": 72399,
       "delta": null
     },
     {
@@ -1308,7 +1308,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 45248,
+      "stars": 45249,
       "delta": null
     },
     {
@@ -1324,7 +1324,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 44866,
+      "stars": 44867,
       "delta": null
     },
     {
@@ -1372,7 +1372,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 35378,
+      "stars": 35380,
       "delta": null
     },
     {
@@ -1438,7 +1438,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 30171,
+      "stars": 30172,
       "delta": null
     },
     {
@@ -1505,7 +1505,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 25215,
+      "stars": 25217,
       "delta": null
     },
     {
@@ -1538,7 +1538,7 @@
       "platforms": [
         "codex"
       ],
-      "stars": 24881,
+      "stars": 24882,
       "delta": null
     },
     {
@@ -1685,7 +1685,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 5207,
+      "stars": 5208,
       "delta": null
     },
     {
@@ -1701,7 +1701,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 4885,
+      "stars": 4886,
       "delta": null
     },
     {
