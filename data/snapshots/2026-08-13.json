@@ -1,16 +1,16 @@
 {
   "date": "2026-08-13",
   "repos": {
-    "anthropics/skills": 168613,
-    "agentskills/agentskills": 24208,
-    "openai/skills": 24874,
-    "vercel-labs/skills": 28780,
+    "anthropics/skills": 168625,
+    "agentskills/agentskills": 24209,
+    "openai/skills": 24875,
+    "vercel-labs/skills": 28785,
     "microsoft/skills": 2883,
     "trailofbits/skills": 6564,
-    "K-Dense-AI/claude-scientific-skills": 33364,
+    "K-Dense-AI/claude-scientific-skills": 33367,
     "addyosmani/web-quality-skills": 2618,
-    "VoltAgent/awesome-agent-skills": 30163,
-    "heilcheng/awesome-agent-skills": 6088,
+    "VoltAgent/awesome-agent-skills": 30167,
+    "heilcheng/awesome-agent-skills": 6090,
     "cosen1024/awesome-academic-skills": 8,
     "wind8ai/skills-top-stars": 12
   }
