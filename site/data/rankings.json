@@ -16,8 +16,8 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 168638,
-      "delta": 2046
+      "stars": 168640,
+      "delta": 2048
     },
     {
       "rank": 2,
@@ -33,8 +33,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 28790,
-      "delta": 636
+      "stars": 28789,
+      "delta": 635
     },
     {
       "rank": 3,
@@ -49,8 +49,8 @@
       "platforms": [
         "codex"
       ],
-      "stars": 24879,
-      "delta": 310
+      "stars": 24878,
+      "delta": 309
     },
     {
       "rank": 4,
@@ -66,8 +66,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 24209,
-      "delta": 280
+      "stars": 24207,
+      "delta": 278
     },
     {
       "rank": 5,
@@ -136,8 +136,8 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 168638,
-      "delta": 5138
+      "stars": 168640,
+      "delta": 5140
     },
     {
       "rank": 2,
@@ -153,8 +153,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 28790,
-      "delta": 1993
+      "stars": 28789,
+      "delta": 1992
     },
     {
       "rank": 3,
@@ -170,8 +170,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 24209,
-      "delta": 1000
+      "stars": 24207,
+      "delta": 998
     },
     {
       "rank": 4,
@@ -186,8 +186,8 @@
       "platforms": [
         "codex"
       ],
-      "stars": 24879,
-      "delta": 737
+      "stars": 24878,
+      "delta": 736
     },
     {
       "rank": 5,
@@ -256,7 +256,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 168638,
+      "stars": 168640,
       "delta": null
     },
     {
@@ -273,7 +273,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 33372,
+      "stars": 33374,
       "delta": null
     },
     {
@@ -307,7 +307,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 28790,
+      "stars": 28789,
       "delta": null
     },
     {
@@ -323,7 +323,7 @@
       "platforms": [
         "codex"
       ],
-      "stars": 24879,
+      "stars": 24878,
       "delta": null
     },
     {
@@ -340,7 +340,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 24209,
+      "stars": 24207,
       "delta": null
     },
     {
