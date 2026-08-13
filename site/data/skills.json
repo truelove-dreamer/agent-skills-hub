@@ -523,6 +523,136 @@
         "quality",
         "taste"
       ]
+    },
+    {
+      "id": "ruvnet-ruflo",
+      "name": "ruvnet/ruflo",
+      "repo": "https://github.com/ruvnet/ruflo",
+      "entry": "https://github.com/ruvnet/ruflo/blob/5efd5937e588d6e2d20d974f14593a4795562ef8/SKILL.md",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "categories": [
+        "designer",
+        "devops"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
+    },
+    {
+      "id": "iofficeai-officecli",
+      "name": "iOfficeAI/OfficeCLI",
+      "repo": "https://github.com/iOfficeAI/OfficeCLI",
+      "entry": "https://github.com/iOfficeAI/OfficeCLI/blob/459b1a473faf33f2f52e697ac6d265a3f67b176a/SKILL.md",
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "categories": [
+        "designer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
+    },
+    {
+      "id": "op7418-guizang-ppt-skill",
+      "name": "op7418/guizang-ppt-skill",
+      "repo": "https://github.com/op7418/guizang-ppt-skill",
+      "entry": "https://github.com/op7418/guizang-ppt-skill/blob/c91369c449d34755d320a8b81d0734000d99d1ab/SKILL.md",
+      "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "categories": [
+        "designer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
+    },
+    {
+      "id": "teng-lin-notebooklm-py",
+      "name": "teng-lin/notebooklm-py",
+      "repo": "https://github.com/teng-lin/notebooklm-py",
+      "entry": "https://github.com/teng-lin/notebooklm-py/blob/07c8b61924667509177efca863a4aff8a632c2e7/SKILL.md",
+      "description": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+      "categories": [
+        "designer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
+    },
+    {
+      "id": "nevamind-ai-memu",
+      "name": "NevaMind-AI/memU",
+      "repo": "https://github.com/NevaMind-AI/memU",
+      "entry": "https://github.com/NevaMind-AI/memU/blob/96fd3ec08853b40a9e4c743794446553df0a3bc4/SKILL.md",
+      "description": "Personal memory across agents",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
+    },
+    {
+      "id": "nidhinjs-prompt-master",
+      "name": "nidhinjs/prompt-master",
+      "repo": "https://github.com/nidhinjs/prompt-master",
+      "entry": "https://github.com/nidhinjs/prompt-master/blob/d15eabbe5d2122eedc060bae8a771381e9873d1b/SKILL.md",
+      "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
+    },
+    {
+      "id": "anbeime-skill",
+      "name": "anbeime/skill",
+      "repo": "https://github.com/anbeime/skill",
+      "entry": "https://github.com/anbeime/skill/blob/c54ef738f2aa0b06b78d669761d510e12b4dd864/SKILL.md",
+      "description": "收录最全、更新最快的技能Skills 商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的 72 个精选技能包。所有技能已打包完成，可直接安装使用！ 该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理。",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
+    },
+    {
+      "id": "vincentwei1021-video-shotcraft",
+      "name": "Vincentwei1021/video-shotcraft",
+      "repo": "https://github.com/Vincentwei1021/video-shotcraft",
+      "entry": "https://github.com/Vincentwei1021/video-shotcraft/blob/41ee360d82f4c491ba9d88a24a4add7d8ff1cf8b/SKILL.md",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+      "categories": [
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
     }
   ]
 }
