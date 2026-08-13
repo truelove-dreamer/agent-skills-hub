@@ -142,7 +142,10 @@ def main() -> int:
     rankings = build_rankings(skills, snapshots)
     write_site_data(rankings, skills, root / "site" / "data")
     (root / "README.md").write_text(render_readme(rankings, skills), encoding="utf-8")
-    print(json.dumps({key: len(value) for key, value in rankings.items()}, ensure_ascii=False))
+    print(json.dumps(
+        {"updated_at": rankings["updated_at"], **{key: len(value) for key, value in rankings.items() if key != "updated_at"}},
+        ensure_ascii=False,
+    ))
     return 0
 
 
