@@ -116,7 +116,8 @@ def render_readme(rankings: dict, skills: list) -> str:
         "",
         f"- 收录技能：{len(skills)} 个",
         f"- 数据更新时间：{rankings.get('updated_at', '暂无')}",
-        "- 在线榜单：GitHub Pages 部署后可用（见 [docs/methodology.md](docs/methodology.md)）",
+        "- 在线站点：[首页](https://truelove-dreamer.github.io/agent-skills-hub/) · [榜单](https://truelove-dreamer.github.io/agent-skills-hub/rankings.html) · [按人群分类](https://truelove-dreamer.github.io/agent-skills-hub/categories.html)",
+        "- 方法与口径见 [docs/methodology.md](docs/methodology.md)",
         "",
     ]
     boards = [

@@ -27,6 +27,12 @@ def test_render_readme_contains_boards_and_meta():
     assert "2026-08-13" in markdown
 
 
+def test_render_readme_contains_site_links():
+    markdown = render_readme(RANKINGS, [])
+    assert "categories.html" in markdown
+    assert "rankings.html" in markdown
+
+
 def test_render_readme_limits_to_top5():
     rows = [{"rank": i, "name": f"r{i}", "repo": "https://github.com/x/y", "delta": i, "description": "d"} for i in range(1, 8)]
     markdown = render_readme({"updated_at": "2026-08-13", "weekly": rows, "monthly": [], "yearly": []}, [])
