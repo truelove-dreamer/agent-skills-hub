@@ -460,7 +460,7 @@ if __name__ == "__main__":
 
 Run: `python -m pytest tests/test_schema.py -q`
 
-Expected: `9 passed`
+Expected: `8 passed`
 
 - [ ] **Step 6: 提交**
 
@@ -1108,7 +1108,7 @@ GitHub Actions 每周日 UTC 0 点自动运行：抓取星标 → 生成榜单�
 
 Run: `python -m pytest -q`
 
-Expected: 全部通过（当前应为 `9 passed`（schema）+ `7 passed`（fetch）+ `7 passed`（rankings）+ `2 passed`（readme）= 25 passed）。
+Expected: 全部通过（当前应为 `8 passed`（schema）+ `7 passed`（fetch）+ `7 passed`（rankings）+ `2 passed`（readme）= 24 passed）。
 
 ```bash
 git add scripts/generate_rankings.py tests/test_readme.py CONTRIBUTING.md docs/methodology.md docs/candidates.md
@@ -1681,7 +1681,7 @@ git commit -m "ci: 添加每周自动更新与 Pages 部署工作流"
 
 Run: `python -m pytest -q`
 
-Expected: 全部通过（29 passed）。
+Expected: 全部通过（28 passed）。
 
 - [ ] **Step 2: 校验数据**
 
