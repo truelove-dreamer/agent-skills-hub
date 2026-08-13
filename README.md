@@ -10,31 +10,31 @@
 
 | 排名 | 名称 | delta | 简介 |
 | --- | --- | --- | --- |
-| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 4779 | 让 AI 智能体像资深工程师一样思考与工作，写出更贴近实战的代码 |
-| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 4370 | 生产级工程技能集合，为 AI 编码智能体提供 Web 质量与工程实践技能 |
-| 3 | [obra/superpowers](https://github.com/obra/superpowers) | 3684 | Agentic 技能框架与软件开发方法论，内置 TDD、代码审查等高质量技能包 |
-| 4 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 3295 | 让 AI 输出更有品味，告别千篇一律的生成内容 |
-| 5 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 2101 | OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required. |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 4785 | 让 AI 智能体像资深工程师一样思考与工作，写出更贴近实战的代码 |
+| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 4372 | 生产级工程技能集合，为 AI 编码智能体提供 Web 质量与工程实践技能 |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers) | 3689 | Agentic 技能框架与软件开发方法论，内置 TDD、代码审查等高质量技能包 |
+| 4 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 3303 | 让 AI 输出更有品味，告别千篇一律的生成内容 |
+| 5 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 2106 | OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required. |
 
 ## 月榜 Top 5（近 30 天涨星）
 
 | 排名 | 名称 | delta | 简介 |
 | --- | --- | --- | --- |
-| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 15301 | 让 AI 智能体像资深工程师一样思考与工作，写出更贴近实战的代码 |
-| 2 | [obra/superpowers](https://github.com/obra/superpowers) | 12559 | Agentic 技能框架与软件开发方法论，内置 TDD、代码审查等高质量技能包 |
-| 3 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 10405 | 让 AI 输出更有品味，告别千篇一律的生成内容 |
-| 4 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 9728 | OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required. |
-| 5 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 7327 | 生产级工程技能集合，为 AI 编码智能体提供 Web 质量与工程实践技能 |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 15307 | 让 AI 智能体像资深工程师一样思考与工作，写出更贴近实战的代码 |
+| 2 | [obra/superpowers](https://github.com/obra/superpowers) | 12564 | Agentic 技能框架与软件开发方法论，内置 TDD、代码审查等高质量技能包 |
+| 3 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 10413 | 让 AI 输出更有品味，告别千篇一律的生成内容 |
+| 4 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 9733 | OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required. |
+| 5 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 7329 | 生产级工程技能集合，为 AI 编码智能体提供 Web 质量与工程实践技能 |
 
 ## 年榜 Top 5（总星标）
 
 | 排名 | 名称 | stars | 简介 |
 | --- | --- | --- | --- |
-| 1 | [obra/superpowers](https://github.com/obra/superpowers) | 271430 | Agentic 技能框架与软件开发方法论，内置 TDD、代码审查等高质量技能包 |
-| 2 | [anthropics/skills](https://github.com/anthropics/skills) | 168655 | Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能 |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 101754 | 让 AI 智能体像资深工程师一样思考与工作，写出更贴近实战的代码 |
-| 4 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 86707 | 生产级工程技能集合，为 AI 编码智能体提供 Web 质量与工程实践技能 |
-| 5 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 76043 | 让 AI 输出更有品味，告别千篇一律的生成内容 |
+| 1 | [obra/superpowers](https://github.com/obra/superpowers) | 271435 | Agentic 技能框架与软件开发方法论，内置 TDD、代码审查等高质量技能包 |
+| 2 | [anthropics/skills](https://github.com/anthropics/skills) | 168656 | Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能 |
+| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 101760 | 让 AI 智能体像资深工程师一样思考与工作，写出更贴近实战的代码 |
+| 4 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 86709 | 生产级工程技能集合，为 AI 编码智能体提供 Web 质量与工程实践技能 |
+| 5 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 76051 | 让 AI 输出更有品味，告别千篇一律的生成内容 |
 
 ## 如何贡献
 
