@@ -20,11 +20,11 @@
 
 | 排名 | 名称 | stars | 简介 |
 | --- | --- | --- | --- |
-| 1 | [anthropics/skills](https://github.com/anthropics/skills) | 168626 | Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能 |
-| 2 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | 33369 | 科研全流程技能库，从选题、实验设计到论文写作，社区广泛使用的科研技能集合 |
+| 1 | [anthropics/skills](https://github.com/anthropics/skills) | 168628 | Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能 |
+| 2 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | 33370 | 科研全流程技能库，从选题、实验设计到论文写作，社区广泛使用的科研技能集合 |
 | 3 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 30168 | 社区策展的 1000+ Agent Skills 目录，兼容 Claude Code、Codex、Cursor 等平台 |
 | 4 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 28789 | 开源技能工具链，用 npx skills 一键搜索、安装和管理 Agent Skills |
-| 5 | [openai/skills](https://github.com/openai/skills) | 24876 | OpenAI 官方 Codex 技能目录，提供面向 Codex 的 SKILL.md 技能集合 |
+| 5 | [openai/skills](https://github.com/openai/skills) | 24877 | OpenAI 官方 Codex 技能目录，提供面向 Codex 的 SKILL.md 技能集合 |
 
 ## 如何贡献
 
