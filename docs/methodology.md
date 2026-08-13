@@ -20,7 +20,13 @@
 
 ## 更新流程
 
-GitHub Actions 每周日 UTC 0 点自动运行：抓取星标 → 生成榜单与站点数据 → 校验 → 测试 → 提交 → 部署 Pages。推送 master 时也会自动部署一次（内容更新即时上线）；也可在 Actions 页面手动触发。
+GitHub Actions 每周日 UTC 0 点自动运行：自动发现新技能 → 抓取星标 → 生成榜单与站点数据 → 校验 → 测试 → 提交 → 部署 Pages。推送 master 时也会自动部署一次（内容更新即时上线）；也可在 Actions 页面手动触发。
+
+## 自动发现新技能
+
+- 每周自动运行 `scripts/discover.py --auto-add`：按 `topic:agent-skills`、`topic:skills`、`topic:claude-skills` 搜索高星仓库，要求星标 ≥ 200、能定位到 SKILL.md（常见路径探测）、与现有清单去重，自动写入 `data/skills.json`。
+- 自动收录的条目带 `auto` 标签；描述使用仓库原始说明，分类由关键词启发式推断，可能不如人工策展精确，欢迎通过 PR 精修。
+- 排除 `awesome-` 开头等聚合目录类仓库（人工收录不受此限制）。
 
 ## 数据来源
 

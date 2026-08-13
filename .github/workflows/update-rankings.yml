@@ -27,6 +27,8 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install -r requirements-dev.txt
+      - name: Auto-discover new skills
+        run: python scripts/discover.py --auto-add --token ${{ secrets.GITHUB_TOKEN }}
       - name: Fetch stars
         run: python scripts/fetch_stars.py --token ${{ secrets.GITHUB_TOKEN }}
       - name: Generate rankings and README
