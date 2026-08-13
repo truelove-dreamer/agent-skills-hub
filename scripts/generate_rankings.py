@@ -105,12 +105,43 @@ def write_site_data(rankings: dict, skills: list, site_data_dir: Path) -> None:
     )
 
 
+def render_readme(rankings: dict, skills: list) -> str:
+    lines = [
+        "# Agent Skills Hub",
+        "",
+        "> 收录 GitHub 热门的 SKILL.md 智能体技能包，提供周榜 / 月榜 / 年榜与按人群分类。",
+        "",
+        f"- 收录技能：{len(skills)} 个",
+        f"- 数据更新时间：{rankings.get('updated_at', '暂无')}",
+        "- 在线榜单：GitHub Pages 部署后可用（见 [docs/methodology.md](docs/methodology.md)）",
+        "",
+    ]
+    boards = [
+        ("周榜 Top 5（近 7 天涨星）", "delta", rankings["weekly"]),
+        ("月榜 Top 5（近 30 天涨星）", "delta", rankings["monthly"]),
+        ("年榜 Top 5（总星标）", "stars", rankings["yearly"]),
+    ]
+    for title, metric, rows in boards:
+        lines.append(f"## {title}")
+        lines.append("")
+        lines.append(f"| 排名 | 名称 | {metric} | 简介 |")
+        lines.append("| --- | --- | --- | --- |")
+        for row in rows[:5]:
+            lines.append(f"| {row['rank']} | [{row['name']}]({row['repo']}) | {row[metric]} | {row['description']} |")
+        lines.append("")
+    lines.append("## 如何贡献")
+    lines.append("")
+    lines.append("新增或更新技能请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)；完整榜单与分类见站点页面。")
+    return "\n".join(lines)
+
+
 def main() -> int:
     root = Path(__file__).resolve().parent.parent
     skills = json.loads((root / "data" / "skills.json").read_text(encoding="utf-8"))["skills"]
     snapshots = load_snapshots(root / "data" / "snapshots")
     rankings = build_rankings(skills, snapshots)
     write_site_data(rankings, skills, root / "site" / "data")
+    (root / "README.md").write_text(render_readme(rankings, skills), encoding="utf-8")
     print(json.dumps({key: len(value) for key, value in rankings.items()}, ensure_ascii=False))
     return 0
 
