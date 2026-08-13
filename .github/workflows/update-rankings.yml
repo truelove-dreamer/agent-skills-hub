@@ -1,5 +1,6 @@
 name: update-rankings
 
+# 每周日 UTC 0 点自动更新榜单；也可手动触发（workflow_dispatch）。
 on:
   schedule:
     - cron: "0 0 * * 0"
