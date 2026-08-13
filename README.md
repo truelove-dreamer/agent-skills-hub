@@ -2,7 +2,7 @@
 
 > 收录 GitHub 热门的 SKILL.md 智能体技能包，提供周榜 / 月榜 / 年榜与按人群分类。
 
-- 收录技能：38 个
+- 收录技能：56 个
 - 数据更新时间：2026-08-13
 - 在线榜单：GitHub Pages 部署后可用（见 [docs/methodology.md](docs/methodology.md)）
 
