@@ -32,3 +32,11 @@ def test_home_shows_yearly_board_and_count():
     assert "yearly-table" in html
     assert "年榜 Top 10" in html
     assert "skill-count" in html
+
+
+def test_board_ids_on_table_elements():
+    for page in ["index.html", "rankings.html"]:
+        html = (SITE / page).read_text(encoding="utf-8")
+        for table_id in ["weekly-table", "monthly-table", "yearly-table"]:
+            if table_id in html:
+                assert f'<table id="{table_id}">' in html, f"{page}: {table_id} 应挂在 <table> 上"
