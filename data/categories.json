@@ -1,0 +1,13 @@
+{
+  "categories": [
+    {"key": "developer", "name": "开发", "audience": "程序员：代码、调试、重构、测试"},
+    {"key": "data-analyst", "name": "数据分析", "audience": "数据分析师/研究者：SQL、统计、可视化"},
+    {"key": "designer", "name": "设计", "audience": "设计师：UI/UX、图片、视频、3D"},
+    {"key": "writer", "name": "写作/文档", "audience": "技术写作、文档、翻译"},
+    {"key": "product", "name": "产品/管理", "audience": "产品经理、项目经理：PRD、需求分析"},
+    {"key": "devops", "name": "运维", "audience": "运维/DevOps：部署、监控、安全"},
+    {"key": "marketing", "name": "营销/内容", "audience": "运营、市场：内容创作、SEO、社媒"},
+    {"key": "research", "name": "研究/学习", "audience": "学生、研究者：文献、学习辅助"},
+    {"key": "productivity", "name": "通用效率", "audience": "所有人：日常办公、自动化"}
+  ]
+}
