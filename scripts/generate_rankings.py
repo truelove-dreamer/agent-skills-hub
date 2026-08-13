@@ -81,7 +81,7 @@ def build_rankings(skills: list, snapshots: list) -> dict:
     }
 
 
-def write_site_data(rankings: dict, skills: list, site_data_dir: Path) -> None:
+def write_site_data(rankings: dict, skills: list, categories: dict, site_data_dir: Path) -> None:
     site_data_dir.mkdir(parents=True, exist_ok=True)
     (site_data_dir / "rankings.json").write_text(
         json.dumps(rankings, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -100,8 +100,11 @@ def write_site_data(rankings: dict, skills: list, site_data_dir: Path) -> None:
         for skill in skills
     ]
     (site_data_dir / "skills.json").write_text(
-        json.dumps({"updated_at": rankings["updated_at"], "skills": pruned}, ensure_ascii=False, indent=2),
+        json.dumps({"updated_at": rankings.get("updated_at", ""), "skills": pruned}, ensure_ascii=False, indent=2),
         encoding="utf-8",
+    )
+    (site_data_dir / "categories.json").write_text(
+        json.dumps(categories, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
 
@@ -138,9 +141,10 @@ def render_readme(rankings: dict, skills: list) -> str:
 def main() -> int:
     root = Path(__file__).resolve().parent.parent
     skills = json.loads((root / "data" / "skills.json").read_text(encoding="utf-8"))["skills"]
+    categories = json.loads((root / "data" / "categories.json").read_text(encoding="utf-8"))
     snapshots = load_snapshots(root / "data" / "snapshots")
     rankings = build_rankings(skills, snapshots)
-    write_site_data(rankings, skills, root / "site" / "data")
+    write_site_data(rankings, skills, categories, root / "site" / "data")
     (root / "README.md").write_text(render_readme(rankings, skills), encoding="utf-8")
     print(json.dumps(
         {"updated_at": rankings["updated_at"], **{key: len(value) for key, value in rankings.items() if key != "updated_at"}},

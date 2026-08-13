@@ -32,15 +32,22 @@ function boardRows(rows) {
     .join("");
 }
 
-function renderBoard(rows, tableId) {
+function renderBoard(rows, tableId, emptyText = "暂无数据") {
   const tbody = document.querySelector(`#${tableId} tbody`);
-  tbody.innerHTML = boardRows(rows);
+  tbody.innerHTML = rows.length
+    ? boardRows(rows)
+    : `<tr><td colspan="5">${escapeHtml(emptyText)}</td></tr>`;
 }
 
 async function initHome() {
-  const rankings = await fetchJSON("data/rankings.json");
-  renderBoard(rankings.weekly.slice(0, 10), "weekly-table");
+  const [rankings, skills] = await Promise.all([
+    fetchJSON("data/rankings.json"),
+    fetchJSON("data/skills.json"),
+  ]);
+  renderBoard(rankings.weekly.slice(0, 10), "weekly-table", "周榜暂无数据（快照积累中，1–4 周后自动出现）");
+  renderBoard(rankings.yearly.slice(0, 10), "yearly-table");
   document.querySelector("#updated-at").textContent = rankings.updated_at || "暂无";
+  document.querySelector("#skill-count").textContent = skills.skills.length;
 }
 
 async function initRankings() {

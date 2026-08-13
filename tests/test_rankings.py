@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
-from generate_rankings import build_rankings, delta_stars
+from generate_rankings import build_rankings, delta_stars, write_site_data
 
 PIN = "0123456789abcdef0123456789abcdef01234567"
 
@@ -86,3 +86,9 @@ def test_single_snapshot_no_deltas():
     assert rankings["weekly"] == []
     assert rankings["monthly"] == []
     assert rankings["yearly"][0]["id"] == "alpha"
+
+
+def test_write_site_data_creates_categories_json(tmp_path):
+    categories = {"categories": [{"key": "developer", "name": "开发", "audience": "程序员"}]}
+    write_site_data({}, [], categories, tmp_path)
+    assert (tmp_path / "categories.json").exists()
