@@ -40,3 +40,10 @@ def test_board_ids_on_table_elements():
         for table_id in ["weekly-table", "monthly-table", "yearly-table"]:
             if table_id in html:
                 assert f'<table id="{table_id}">' in html, f"{page}: {table_id} 应挂在 <table> 上"
+
+
+def test_categories_uses_left_right_layout():
+    html = (SITE / "categories.html").read_text(encoding="utf-8")
+    assert "categories-layout" in html
+    assert "category-panel" in html
+    assert "skill-panel" in html

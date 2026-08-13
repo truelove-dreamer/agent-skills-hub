@@ -17,14 +17,16 @@
     </nav>
   </header>
   <main>
-    <div class="card">
-      <h2>按人群选择</h2>
-      <p class="muted">点击卡片查看这类人适合的 skill。</p>
-      <div id="category-cards"></div>
-    </div>
-    <div class="card">
-      <h2>推荐技能</h2>
-      <div id="skill-list"></div>
+    <div class="categories-layout">
+      <aside class="card" id="category-panel">
+        <h2>我是谁？</h2>
+        <p class="muted">选择人群查看推荐技能</p>
+        <div id="category-cards"></div>
+      </aside>
+      <section class="card" id="skill-panel">
+        <h2 id="skill-panel-title">推荐技能</h2>
+        <div id="skill-list"></div>
+      </section>
     </div>
   </main>
   <script src="assets/app.js"></script>

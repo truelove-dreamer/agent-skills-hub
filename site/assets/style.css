@@ -47,3 +47,26 @@ a { color: var(--accent); }
 .category-card h3 { margin: 0 0 4px; }
 .category-card .count { color: var(--muted); font-size: 13px; }
 #skill-list .skill-item { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.categories-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+#category-panel { position: sticky; top: 16px; }
+#category-cards { max-height: 65vh; overflow-y: auto; }
+.category-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  background: var(--card);
+}
+.category-card.active {
+  border-color: var(--accent);
+  background: #eef4fb;
+}
+@media (max-width: 720px) {
+  .categories-layout { grid-template-columns: 1fr; }
+  #category-panel { position: static; }
+}

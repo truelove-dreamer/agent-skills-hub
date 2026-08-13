@@ -214,6 +214,315 @@
         "ranking",
         "directory"
       ]
+    },
+    {
+      "id": "obra-superpowers",
+      "name": "obra/superpowers",
+      "repo": "https://github.com/obra/superpowers",
+      "entry": "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md",
+      "description": "Agentic 技能框架与软件开发方法论，内置 TDD、代码审查等高质量技能包",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "framework",
+        "methodology"
+      ]
+    },
+    {
+      "id": "ponytail",
+      "name": "DietrichGebert/ponytail",
+      "repo": "https://github.com/DietrichGebert/ponytail",
+      "entry": "https://github.com/DietrichGebert/ponytail/blob/2ed6c52c9d7e5e56942508591085fd45dea277d3/README.md",
+      "description": "让 AI 智能体像资深工程师一样思考与工作，写出更贴近实战的代码",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "coding",
+        "thinking"
+      ]
+    },
+    {
+      "id": "addyosmani-agent-skills",
+      "name": "addyosmani/agent-skills",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "entry": "https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/README.md",
+      "description": "生产级工程技能集合，为 AI 编码智能体提供 Web 质量与工程实践技能",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "engineering",
+        "web"
+      ]
+    },
+    {
+      "id": "awesome-claude-skills",
+      "name": "ComposioHQ/awesome-claude-skills",
+      "repo": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "entry": "https://github.com/ComposioHQ/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/README.md",
+      "description": "Claude Skills 精选目录，聚合社区优质技能、资源与工具",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "tags": [
+        "directory"
+      ]
+    },
+    {
+      "id": "awesome-claude-code",
+      "name": "hesreallyhim/awesome-claude-code",
+      "repo": "https://github.com/hesreallyhim/awesome-claude-code",
+      "entry": "https://github.com/hesreallyhim/awesome-claude-code/blob/fdc63ce220b1e795c37ab6f05f1bf0149bf4f0bd/README.md",
+      "description": "Claude Code 精选资源合集，涵盖技能、插件与最佳实践",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "tags": [
+        "directory",
+        "resources"
+      ]
+    },
+    {
+      "id": "awesome-openclaw-skills",
+      "name": "VoltAgent/awesome-openclaw-skills",
+      "repo": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "entry": "https://github.com/VoltAgent/awesome-openclaw-skills/blob/517a94d8d3e6cd27039ceefdbad36f19d4b73389/README.md",
+      "description": "OpenClaw 技能精选集，5400+ 技能筛选分类",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "directory",
+        "openclaw"
+      ]
+    },
+    {
+      "id": "agentic-awesome-skills",
+      "name": "sickn33/agentic-awesome-skills",
+      "repo": "https://github.com/sickn33/agentic-awesome-skills",
+      "entry": "https://github.com/sickn33/agentic-awesome-skills/blob/1dd6daec9f43c59b5c2082c36abc59c9418b41c6/README.md",
+      "description": "Agent 优先的本地技能目录与发现控制台，提供完整目录发现与安装路径",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "directory",
+        "discovery"
+      ]
+    },
+    {
+      "id": "wshobson-agents",
+      "name": "wshobson/agents",
+      "repo": "https://github.com/wshobson/agents",
+      "entry": "https://github.com/wshobson/agents/blob/c4b82b0ad771190355eb8e204b1329732a18449a/README.md",
+      "description": "多平台智能体插件市场，覆盖 Claude Code、Codex CLI、Cursor 等",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "marketplace"
+      ]
+    },
+    {
+      "id": "awesome-copilot",
+      "name": "github/awesome-copilot",
+      "repo": "https://github.com/github/awesome-copilot",
+      "entry": "https://github.com/github/awesome-copilot/blob/55b952d2f9bd5b092d2f4b87fdbcf205a1a5ccc5/README.md",
+      "description": "GitHub Copilot 社区技能、指令与配置合集",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "copilot"
+      ],
+      "tags": [
+        "official",
+        "copilot"
+      ]
+    },
+    {
+      "id": "humanizer",
+      "name": "blader/humanizer",
+      "repo": "https://github.com/blader/humanizer",
+      "entry": "https://github.com/blader/humanizer/blob/523374dee72d67c7b2b5f858ea0094ffda49c3ac/README.md",
+      "description": "去除文本中的 AI 生成痕迹，让写作更像真人",
+      "categories": [
+        "writer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "writing",
+        "humanize"
+      ]
+    },
+    {
+      "id": "google-workspace-cli",
+      "name": "googleworkspace/cli",
+      "repo": "https://github.com/googleworkspace/cli",
+      "entry": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/README.md",
+      "description": "Google Workspace 官方命令行技能：Drive、Gmail、日历、表格一体化操作",
+      "categories": [
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "google",
+        "official"
+      ]
+    },
+    {
+      "id": "planning-with-files",
+      "name": "OthmanAdi/planning-with-files",
+      "repo": "https://github.com/OthmanAdi/planning-with-files",
+      "entry": "https://github.com/OthmanAdi/planning-with-files/blob/e8f505a4f5025df5b070494e46c25789582bff55/README.md",
+      "description": "基于文件的持久化规划技能，适合长任务与多智能体协作",
+      "categories": [
+        "developer",
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "planning"
+      ]
+    },
+    {
+      "id": "pm-skills",
+      "name": "phuryn/pm-skills",
+      "repo": "https://github.com/phuryn/pm-skills",
+      "entry": "https://github.com/phuryn/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/README.md",
+      "description": "产品经理技能市场：100+ 技能覆盖发现、策略、执行与增长",
+      "categories": [
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "product",
+        "marketplace"
+      ]
+    },
+    {
+      "id": "baoyu-skills",
+      "name": "JimLiu/baoyu-skills",
+      "repo": "https://github.com/JimLiu/baoyu-skills",
+      "entry": "https://github.com/JimLiu/baoyu-skills/blob/6b7a2e417500561a5ecdd0b168332f4142584617/README.md",
+      "description": "中文社区热门的 Agent 技能合集（宝玉出品），覆盖多种日常与开发场景",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "chinese",
+        "collection"
+      ]
+    },
+    {
+      "id": "alirezarezvani-claude-skills",
+      "name": "alirezarezvani/claude-skills",
+      "repo": "https://github.com/alirezarezvani/claude-skills",
+      "entry": "https://github.com/alirezarezvani/claude-skills/blob/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/README.md",
+      "description": "345 个 Claude Code 技能与插件合集，覆盖开发、运维与办公场景",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "tags": [
+        "collection"
+      ]
+    },
+    {
+      "id": "obsidian-skills",
+      "name": "kepano/obsidian-skills",
+      "repo": "https://github.com/kepano/obsidian-skills",
+      "entry": "https://github.com/kepano/obsidian-skills/blob/a1dc48e68138490d522c04cbf5822214c6eb1202/README.md",
+      "description": "Obsidian 智能体技能：通过 CLI 与开放格式高效管理笔记",
+      "categories": [
+        "writer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "obsidian",
+        "notes"
+      ]
+    },
+    {
+      "id": "claude-plugins-official",
+      "name": "anthropics/claude-plugins-official",
+      "repo": "https://github.com/anthropics/claude-plugins-official",
+      "entry": "https://github.com/anthropics/claude-plugins-official/blob/4a3e6565eae08b14c5efcb842d87dee8ae99527f/README.md",
+      "description": "Anthropic 官方维护的 Claude Code 插件目录",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "tags": [
+        "official",
+        "plugins"
+      ]
+    },
+    {
+      "id": "taste-skill",
+      "name": "Leonxlnx/taste-skill",
+      "repo": "https://github.com/Leonxlnx/taste-skill",
+      "entry": "https://github.com/Leonxlnx/taste-skill/blob/e988add20dab0fa97d7a76781c48961c8184288e/README.md",
+      "description": "让 AI 输出更有品味，告别千篇一律的生成内容",
+      "categories": [
+        "designer",
+        "writer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "quality",
+        "taste"
+      ]
     }
   ]
 }

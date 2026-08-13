@@ -71,30 +71,50 @@ async function initCategories() {
     fetchJSON("data/skills.json"),
   ]);
   const container = document.querySelector("#category-cards");
-  container.innerHTML = categories.categories
-    .map((category) => {
-      const count = skills.skills.filter((s) => s.categories.includes(category.key)).length;
-      return `<div class="card category-card" data-key="${escapeHtml(category.key)}">
-        <h3>${escapeHtml(category.name)}</h3>
-        <p class="muted">${escapeHtml(category.audience)}</p>
-        <span class="count">${count} 个技能</span>
-      </div>`;
-    })
-    .join("");
+  container.innerHTML =
+    `<div class="category-card" data-key="all">
+      <h3>全部</h3>
+      <span class="count">${skills.skills.length} 个技能</span>
+    </div>` +
+    categories.categories
+      .map((category) => {
+        const count = skills.skills.filter((s) => s.categories.includes(category.key)).length;
+        return `<div class="category-card" data-key="${escapeHtml(category.key)}">
+          <h3>${escapeHtml(category.name)}</h3>
+          <span class="count">${count} 个技能</span>
+        </div>`;
+      })
+      .join("");
+  function showSkills(key) {
+    const filtered =
+      key === "all" ? skills.skills : skills.skills.filter((s) => s.categories.includes(key));
+    const category = categories.categories.find((c) => c.key === key);
+    const label = key === "all" ? "全部" : category ? category.name : key;
+    document.querySelector("#skill-panel-title").textContent = `推荐技能（${label}）`;
+    document.querySelector("#skill-list").innerHTML = filtered.length
+      ? filtered
+          .map(
+            (s) => `<div class="skill-item">
+              <a href="${escapeHtml(s.entry)}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a>
+              <span class="muted"> — ${escapeHtml(s.description)}</span>
+            </div>`
+          )
+          .join("")
+      : `<p class="muted">该分类暂无技能</p>`;
+  }
   container.querySelectorAll(".category-card").forEach((card) => {
     card.addEventListener("click", () => {
+      container.querySelectorAll(".category-card").forEach((c) => c.classList.remove("active"));
       const key = card.dataset.key;
-      const filtered = skills.skills.filter((s) => s.categories.includes(key));
-      document.querySelector("#skill-list").innerHTML = filtered
-        .map(
-          (s) => `<div class="skill-item">
-            <a href="${escapeHtml(s.entry)}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a>
-            <span class="muted"> — ${escapeHtml(s.description)}</span>
-          </div>`
-        )
-        .join("");
+      card.classList.add("active");
+      showSkills(key);
     });
   });
+  const first = container.querySelector(".category-card");
+  if (first) {
+    first.classList.add("active");
+    showSkills(first.dataset.key);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {

@@ -70,15 +70,22 @@ def backfill_from_star_history(snapshots_dir: Path, date_str: str, slugs: list) 
     """Best-effort backfill of 7/30-day baseline snapshots via star-history.dera.page."""
     current = date.fromisoformat(date_str)
     targets = [(current - timedelta(days=days)).isoformat() for days in (7, 30)]
-    existing = {path.stem for path in snapshots_dir.glob("*.json")}
-    missing = [target for target in targets if target not in existing]
-    if not missing:
+    baseline_files = {target: snapshots_dir / f"{target}.json" for target in targets}
+    covered = set()
+    for path in baseline_files.values():
+        if path.exists():
+            covered.update(json.loads(path.read_text(encoding="utf-8"))["repos"].keys())
+    needed = [slug for slug in slugs if slug not in covered]
+    if not needed:
         return
-    history = fetch_star_history_adaptive(slugs)
+    history = fetch_star_history_adaptive(needed)
     if not history:
         return
-    baselines = {target: {} for target in missing}
-    for target in missing:
+    for target in targets:
+        baseline = {}
+        path = snapshots_dir / f"{target}.json"
+        if path.exists():
+            baseline = json.loads(path.read_text(encoding="utf-8"))["repos"]
         for slug, series in history.items():
             stars_at = series.get(target)
             if stars_at is None:
@@ -86,11 +93,10 @@ def backfill_from_star_history(snapshots_dir: Path, date_str: str, slugs: list) 
                 if not earlier:
                     continue
                 stars_at = series[max(earlier)]
-            baselines[target][slug] = stars_at
-    for target, baseline in baselines.items():
+            baseline[slug] = stars_at
         if baseline:
             write_snapshot(snapshots_dir, target, baseline)
-    print(f"INFO: 历史快照回填完成: {missing}")
+    print(f"INFO: 历史快照回填完成: {targets}（新增 {len(needed)} 个仓库）")
 
 
 def main() -> int:

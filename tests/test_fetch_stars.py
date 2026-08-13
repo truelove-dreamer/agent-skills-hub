@@ -73,6 +73,18 @@ def test_backfill_skips_existing_baselines(tmp_path):
     fetch.assert_not_called()
 
 
+def test_backfill_merges_new_repos_into_existing_baselines(tmp_path):
+    write_snapshot(tmp_path, "2026-08-06", {"a/b": 1000})
+    write_snapshot(tmp_path, "2026-07-14", {"a/b": 900})
+    history = {"c/d": {"2026-08-06": 50, "2026-07-14": 40}}
+    with mock.patch("fetch_stars.fetch_star_history", return_value=history):
+        backfill_from_star_history(tmp_path, "2026-08-13", ["a/b", "c/d"])
+    seven = json.loads((tmp_path / "2026-08-06.json").read_text(encoding="utf-8"))["repos"]
+    thirty = json.loads((tmp_path / "2026-07-14.json").read_text(encoding="utf-8"))["repos"]
+    assert seven == {"a/b": 1000, "c/d": 50}
+    assert thirty == {"a/b": 900, "c/d": 40}
+
+
 def test_backfill_ignores_network_errors(tmp_path, capsys):
     with mock.patch("fetch_stars.fetch_star_history", side_effect=Exception("boom")):
         backfill_from_star_history(tmp_path, "2026-08-13", ["a/b"])
