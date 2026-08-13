@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/snapshots site/data README.md
+          git add data/skills.json data/snapshots site/data README.md
           git commit -m "chore: 更新榜单数据 $(date -u +%Y-%m-%d) [skip ci]" || echo "无变更"
           git push
       - name: Setup Pages
