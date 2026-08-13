@@ -29,7 +29,7 @@ def delta_stars(snapshots: list, days: int) -> dict:
             break
     if baseline is None:
         baseline = snapshots[0]["repos"]
-    return {repo: current[repo] - baseline.get(repo, 0) for repo in current}
+    return {repo: current[repo] - baseline[repo] for repo in current if repo in baseline}
 
 
 def build_rankings(skills: list, snapshots: list) -> dict:

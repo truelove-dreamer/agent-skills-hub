@@ -51,15 +51,29 @@ def test_write_snapshot_overwrites_same_day(tmp_path):
     assert data["repos"]["a/b"] == 2
 
 
-def test_backfill_gracefully_skips_when_service_degraded(capsys):
-    body = b"<text>GitHub restricted access to star data</text>"
-    with mock.patch("urllib.request.urlopen") as urlopen:
-        urlopen.return_value.__enter__.return_value.read.return_value = body
-        backfill_from_star_history("2026-08-13", ["a/b"])
-    assert "跳过回填" in capsys.readouterr().out
+def test_backfill_writes_baseline_snapshots(tmp_path, capsys):
+    history = {"a/b": {
+        "2026-08-06": 1000,
+        "2026-07-14": 900,
+        "2026-08-13": 1100,
+    }}
+    with mock.patch("fetch_stars.fetch_star_history", return_value=history):
+        backfill_from_star_history(tmp_path, "2026-08-13", ["a/b"])
+    seven = json.loads((tmp_path / "2026-08-06.json").read_text(encoding="utf-8"))
+    thirty = json.loads((tmp_path / "2026-07-14.json").read_text(encoding="utf-8"))
+    assert seven["repos"]["a/b"] == 1000
+    assert thirty["repos"]["a/b"] == 900
 
 
-def test_backfill_ignores_network_errors(capsys):
-    with mock.patch("urllib.request.urlopen", side_effect=Exception("boom")):
-        backfill_from_star_history("2026-08-13", ["a/b"])
-    assert "跳过" in capsys.readouterr().out
+def test_backfill_skips_existing_baselines(tmp_path):
+    write_snapshot(tmp_path, "2026-08-06", {"a/b": 1000})
+    write_snapshot(tmp_path, "2026-07-14", {"a/b": 900})
+    with mock.patch("fetch_stars.fetch_star_history") as fetch:
+        backfill_from_star_history(tmp_path, "2026-08-13", ["a/b"])
+    fetch.assert_not_called()
+
+
+def test_backfill_ignores_network_errors(tmp_path, capsys):
+    with mock.patch("fetch_stars.fetch_star_history", side_effect=Exception("boom")):
+        backfill_from_star_history(tmp_path, "2026-08-13", ["a/b"])
+    assert "失败" in capsys.readouterr().out

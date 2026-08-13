@@ -11,7 +11,7 @@
 ## 冷启动与回填
 
 - 新项目没有历史快照，周榜/月榜在积累 1–4 周后逐步可用，年榜（总星标）始终可用。
-- `fetch_stars.py` 会尝试调用 star-history 接口回填历史；该服务当前受 GitHub 星标数据限制影响，不可用时自动跳过，不影响主流程。
+- `fetch_stars.py` 会通过开源服务 star-history.dera.page 的 `repo-data` 接口回填 7 天前/30 天前的星标基线，生成对应日期的快照，因此周榜/月榜可在首次运行后即有数据。
 - 如需手动导入历史数据，可直接添加一个 `data/snapshots/YYYY-MM-DD.json` 文件（格式见已有快照）。
 
 ## 收录边界
@@ -25,4 +25,4 @@ GitHub Actions 每周日 UTC 0 点自动运行：抓取星标 → 生成榜单�
 ## 数据来源
 
 - 当前星标：GitHub REST API（`GET /repos/{owner}/{repo}`）
-- 历史回填：star-history（尽力而为，受上游限制影响）
+- 历史回填：[star-history.dera.page](https://star-history.dera.page) 开源服务（`/repo-data?repos=...`），原 star-history 的替代实现

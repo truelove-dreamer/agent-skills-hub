@@ -1,13 +1,12 @@
 """Fetch current star counts for curated repos and write daily snapshots."""
 import json
 import sys
-import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 GITHUB_API = "https://api.github.com/repos"
-STAR_HISTORY_URL = "https://api.star-history.com/svg"
+STAR_HISTORY_API = "https://star-history.dera.page"
 
 
 def repo_slug(repo_url: str) -> str:
@@ -39,20 +38,59 @@ def write_snapshot(snapshots_dir: Path, date_str: str, stars: dict) -> Path:
     return target
 
 
-def backfill_from_star_history(date_str: str, slugs: list) -> None:
-    """Best-effort historical backfill; upstream is currently degraded."""
+def fetch_star_history(slugs: list) -> dict:
+    """Return {owner/repo: {date: cumulative stars}} via star-history.dera.page."""
+    url = f"{STAR_HISTORY_API}/repo-data?repos={','.join(slugs)}"
+    request = urllib.request.Request(url, headers={"User-Agent": "agent-skills-hub"})
+    with urllib.request.urlopen(request, timeout=60) as response:
+        payload = json.load(response)
+    result = {}
+    for item in payload.get("data", []):
+        result[item["repo"]] = {
+            row["date"]: int(row["count"]) for row in item["starRecords"]
+        }
+    return result
+
+
+def fetch_star_history_adaptive(slugs: list) -> dict:
+    """Fetch history, splitting requests on rate limits (best effort)."""
     try:
-        repos = ",".join(slugs)
-        url = f"{STAR_HISTORY_URL}?repos={urllib.parse.quote(repos)}"
-        request = urllib.request.Request(url, headers={"User-Agent": "agent-skills-hub"})
-        with urllib.request.urlopen(request, timeout=30) as response:
-            body = response.read(2000).decode("utf-8", errors="ignore")
-        if "restricted access" in body.lower():
-            print("WARN: star-history 服务当前受 GitHub 数据限制影响，跳过回填")
-            return
-        print(f"INFO: star-history 返回数据（{len(body)} 字节），本版暂不解析历史序列")
+        return fetch_star_history(slugs)
     except Exception as exc:
-        print(f"WARN: star-history 回填失败，跳过: {exc}")
+        if len(slugs) <= 1:
+            print(f"WARN: 历史回填失败 {slugs}: {exc}")
+            return {}
+        mid = len(slugs) // 2
+        result = fetch_star_history_adaptive(slugs[:mid])
+        result.update(fetch_star_history_adaptive(slugs[mid:]))
+        return result
+
+
+def backfill_from_star_history(snapshots_dir: Path, date_str: str, slugs: list) -> None:
+    """Best-effort backfill of 7/30-day baseline snapshots via star-history.dera.page."""
+    current = date.fromisoformat(date_str)
+    targets = [(current - timedelta(days=days)).isoformat() for days in (7, 30)]
+    existing = {path.stem for path in snapshots_dir.glob("*.json")}
+    missing = [target for target in targets if target not in existing]
+    if not missing:
+        return
+    history = fetch_star_history_adaptive(slugs)
+    if not history:
+        return
+    baselines = {target: {} for target in missing}
+    for target in missing:
+        for slug, series in history.items():
+            stars_at = series.get(target)
+            if stars_at is None:
+                earlier = [day for day in series if day <= target]
+                if not earlier:
+                    continue
+                stars_at = series[max(earlier)]
+            baselines[target][slug] = stars_at
+    for target, baseline in baselines.items():
+        if baseline:
+            write_snapshot(snapshots_dir, target, baseline)
+    print(f"INFO: 历史快照回填完成: {missing}")
 
 
 def main() -> int:
@@ -76,7 +114,7 @@ def main() -> int:
 
     if stars:
         write_snapshot(snapshots_dir, date_str, stars)
-        backfill_from_star_history(date_str, list(stars.keys()))
+        backfill_from_star_history(snapshots_dir, date_str, list(stars.keys()))
     if errors:
         (root / "data" / "errors.json").write_text(
             json.dumps(errors, ensure_ascii=False, indent=2), encoding="utf-8"

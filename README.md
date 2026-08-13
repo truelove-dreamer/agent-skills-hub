@@ -10,21 +10,31 @@
 
 | 排名 | 名称 | delta | 简介 |
 | --- | --- | --- | --- |
+| 1 | [anthropics/skills](https://github.com/anthropics/skills) | 2046 | Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能 |
+| 2 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 636 | 开源技能工具链，用 npx skills 一键搜索、安装和管理 Agent Skills |
+| 3 | [openai/skills](https://github.com/openai/skills) | 310 | OpenAI 官方 Codex 技能目录，提供面向 Codex 的 SKILL.md 技能集合 |
+| 4 | [agentskills/agentskills](https://github.com/agentskills/agentskills) | 280 | Agent Skills 官方规范与文档仓库，定义 SKILL.md 标准与最佳实践 |
+| 5 | [trailofbits/skills](https://github.com/trailofbits/skills) | 99 | 安全研究专用技能，覆盖漏洞检测、代码审计与渗透测试工作流 |
 
 ## 月榜 Top 5（近 30 天涨星）
 
 | 排名 | 名称 | delta | 简介 |
 | --- | --- | --- | --- |
+| 1 | [anthropics/skills](https://github.com/anthropics/skills) | 5138 | Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能 |
+| 2 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 1993 | 开源技能工具链，用 npx skills 一键搜索、安装和管理 Agent Skills |
+| 3 | [agentskills/agentskills](https://github.com/agentskills/agentskills) | 1000 | Agent Skills 官方规范与文档仓库，定义 SKILL.md 标准与最佳实践 |
+| 4 | [openai/skills](https://github.com/openai/skills) | 737 | OpenAI 官方 Codex 技能目录，提供面向 Codex 的 SKILL.md 技能集合 |
+| 5 | [trailofbits/skills](https://github.com/trailofbits/skills) | 359 | 安全研究专用技能，覆盖漏洞检测、代码审计与渗透测试工作流 |
 
 ## 年榜 Top 5（总星标）
 
 | 排名 | 名称 | stars | 简介 |
 | --- | --- | --- | --- |
-| 1 | [anthropics/skills](https://github.com/anthropics/skills) | 168628 | Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能 |
-| 2 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | 33370 | 科研全流程技能库，从选题、实验设计到论文写作，社区广泛使用的科研技能集合 |
-| 3 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 30168 | 社区策展的 1000+ Agent Skills 目录，兼容 Claude Code、Codex、Cursor 等平台 |
-| 4 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 28789 | 开源技能工具链，用 npx skills 一键搜索、安装和管理 Agent Skills |
-| 5 | [openai/skills](https://github.com/openai/skills) | 24877 | OpenAI 官方 Codex 技能目录，提供面向 Codex 的 SKILL.md 技能集合 |
+| 1 | [anthropics/skills](https://github.com/anthropics/skills) | 168638 | Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能 |
+| 2 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | 33372 | 科研全流程技能库，从选题、实验设计到论文写作，社区广泛使用的科研技能集合 |
+| 3 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 30169 | 社区策展的 1000+ Agent Skills 目录，兼容 Claude Code、Codex、Cursor 等平台 |
+| 4 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 28790 | 开源技能工具链，用 npx skills 一键搜索、安装和管理 Agent Skills |
+| 5 | [openai/skills](https://github.com/openai/skills) | 24879 | OpenAI 官方 Codex 技能目录，提供面向 Codex 的 SKILL.md 技能集合 |
 
 ## 如何贡献
 

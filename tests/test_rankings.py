@@ -46,6 +46,15 @@ def test_monthly_delta():
     assert deltas["b/beta"] == 20
 
 
+def test_delta_skips_repos_without_baseline():
+    snapshots = [
+        {"date": "2026-08-06", "repos": {"a/alpha": 100}},
+        {"date": "2026-08-13", "repos": {"a/alpha": 110, "b/beta": 50}},
+    ]
+    deltas = delta_stars(snapshots, 7)
+    assert deltas == {"a/alpha": 10}
+
+
 def test_weekly_order_and_zero_excluded():
     rankings = build_rankings(SKILLS, SNAPSHOTS)
     weekly = rankings["weekly"]

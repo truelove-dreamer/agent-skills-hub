@@ -1,0 +1,12 @@
+{
+  "date": "2026-07-14",
+  "repos": {
+    "anthropics/skills": 163500,
+    "agentskills/agentskills": 23209,
+    "openai/skills": 24142,
+    "vercel-labs/skills": 26797,
+    "microsoft/skills": 2819,
+    "trailofbits/skills": 6206,
+    "addyosmani/web-quality-skills": 2552
+  }
+}
