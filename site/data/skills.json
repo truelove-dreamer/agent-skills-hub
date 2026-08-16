@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13",
+  "updated_at": "2026-08-16",
   "skills": [
     {
       "id": "anthropics-skills",
@@ -963,6 +963,22 @@
       "tags": [
         "writing",
         "latex"
+      ]
+    },
+    {
+      "id": "titanwings-colleague-skill",
+      "name": "titanwings/colleague-skill",
+      "repo": "https://github.com/titanwings/colleague-skill",
+      "entry": "https://github.com/titanwings/colleague-skill/blob/22d96a76e05b91939493f604a0a46198d0d7f978/SKILL.md",
+      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
       ]
     }
   ]

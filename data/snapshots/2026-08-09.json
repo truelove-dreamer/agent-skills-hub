@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-09",
+  "repos": {
+    "anthropics/skills": 169249,
+    "agentskills/agentskills": 24283,
+    "openai/skills": 24914,
+    "vercel-labs/skills": 28914,
+    "microsoft/skills": 2903,
+    "trailofbits/skills": 6594,
+    "addyosmani/web-quality-skills": 2624,
+    "VoltAgent/awesome-agent-skills": 30291,
+    "heilcheng/awesome-agent-skills": 6092,
+    "obra/superpowers": 272042
+  }
+}
