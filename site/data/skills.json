@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16",
+  "updated_at": "2026-08-23",
   "skills": [
     {
       "id": "anthropics-skills",
@@ -971,6 +971,22 @@
       "repo": "https://github.com/titanwings/colleague-skill",
       "entry": "https://github.com/titanwings/colleague-skill/blob/22d96a76e05b91939493f604a0a46198d0d7f978/SKILL.md",
       "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
+    },
+    {
+      "id": "virgiliojr94-book-to-skill",
+      "name": "virgiliojr94/book-to-skill",
+      "repo": "https://github.com/virgiliojr94/book-to-skill",
+      "entry": "https://github.com/virgiliojr94/book-to-skill/blob/3a97a7115ab3c82edf47f315b544fbcefdd8559c/SKILL.md",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
       "categories": [
         "developer"
       ],

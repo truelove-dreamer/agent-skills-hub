@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-16",
+  "updated_at": "2026-08-23",
   "skills": [
     {
       "id": "anthropics-skills",
@@ -1152,6 +1152,25 @@
         "auto"
       ],
       "added_at": "2026-08-16"
+    },
+    {
+      "id": "virgiliojr94-book-to-skill",
+      "name": "virgiliojr94/book-to-skill",
+      "repo": "https://github.com/virgiliojr94/book-to-skill",
+      "entry": "https://github.com/virgiliojr94/book-to-skill/blob/3a97a7115ab3c82edf47f315b544fbcefdd8559c/SKILL.md",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "license": "",
+      "verified_at": "2026-08-23",
+      "tags": [
+        "auto"
+      ],
+      "added_at": "2026-08-23"
     }
   ]
 }
