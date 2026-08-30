@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-23",
+  "updated_at": "2026-08-30",
   "skills": [
     {
       "id": "anthropics-skills",
@@ -1171,6 +1171,25 @@
         "auto"
       ],
       "added_at": "2026-08-23"
+    },
+    {
+      "id": "titanwings-distilly",
+      "name": "titanwings/distilly",
+      "repo": "https://github.com/titanwings/distilly",
+      "entry": "https://github.com/titanwings/distilly/blob/868c293f56116081733b78fc7db5f91634d7b62a/SKILL.md",
+      "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "license": "",
+      "verified_at": "2026-08-30",
+      "tags": [
+        "auto"
+      ],
+      "added_at": "2026-08-30"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23",
+  "updated_at": "2026-08-30",
   "skills": [
     {
       "id": "anthropics-skills",
@@ -987,6 +987,22 @@
       "repo": "https://github.com/virgiliojr94/book-to-skill",
       "entry": "https://github.com/virgiliojr94/book-to-skill/blob/3a97a7115ab3c82edf47f315b544fbcefdd8559c/SKILL.md",
       "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
+    },
+    {
+      "id": "titanwings-distilly",
+      "name": "titanwings/distilly",
+      "repo": "https://github.com/titanwings/distilly",
+      "entry": "https://github.com/titanwings/distilly/blob/868c293f56116081733b78fc7db5f91634d7b62a/SKILL.md",
+      "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
       "categories": [
         "developer"
       ],
