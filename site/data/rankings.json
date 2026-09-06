@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30",
+  "updated_at": "2026-09-06",
   "weekly": [
     {
       "rank": 1,
@@ -14,8 +14,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 116420,
-      "delta": 8220
+      "stars": 128000,
+      "delta": 11580
     },
     {
       "rank": 2,
@@ -31,11 +31,27 @@
       "platforms": [
         "multi"
       ],
-      "stars": 37998,
-      "delta": 3866
+      "stars": 42961,
+      "delta": 4963
     },
     {
       "rank": 3,
+      "id": "humanizer",
+      "name": "blader/humanizer",
+      "repo": "https://github.com/blader/humanizer",
+      "entry": "https://github.com/blader/humanizer/blob/523374dee72d67c7b2b5f858ea0094ffda49c3ac/README.md",
+      "description": "去除文本中的 AI 生成痕迹，让写作更像真人",
+      "categories": [
+        "writer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 43506,
+      "delta": 4691
+    },
+    {
+      "rank": 4,
       "id": "obra-superpowers",
       "name": "obra/superpowers",
       "repo": "https://github.com/obra/superpowers",
@@ -48,24 +64,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 279391,
-      "delta": 3203
-    },
-    {
-      "rank": 4,
-      "id": "virgiliojr94-book-to-skill",
-      "name": "virgiliojr94/book-to-skill",
-      "repo": "https://github.com/virgiliojr94/book-to-skill",
-      "entry": "https://github.com/virgiliojr94/book-to-skill/blob/3a97a7115ab3c82edf47f315b544fbcefdd8559c/SKILL.md",
-      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-      "categories": [
-        "developer"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 27060,
-      "delta": 2884
+      "stars": 282116,
+      "delta": 2725
     },
     {
       "rank": 5,
@@ -81,25 +81,26 @@
       "platforms": [
         "multi"
       ],
-      "stars": 82193,
-      "delta": 2871
+      "stars": 84620,
+      "delta": 2427
     },
     {
       "rank": 6,
-      "id": "voltagent-awesome-agent-skills",
-      "name": "VoltAgent/awesome-agent-skills",
-      "repo": "https://github.com/VoltAgent/awesome-agent-skills",
-      "entry": "https://github.com/VoltAgent/awesome-agent-skills/blob/bb272b65c8162bed7e1f92d72e9323744ecdb6f5/README.md",
-      "description": "社区策展的 1000+ Agent Skills 目录，兼容 Claude Code、Codex、Cursor 等平台",
+      "id": "anthropics-skills",
+      "name": "anthropics/skills",
+      "repo": "https://github.com/anthropics/skills",
+      "entry": "https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/README.md",
+      "description": "Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能",
       "categories": [
         "developer",
+        "writer",
         "productivity"
       ],
       "platforms": [
-        "multi"
+        "claude-code"
       ],
-      "stars": 33266,
-      "delta": 2321
+      "stars": 174579,
+      "delta": 2097
     },
     {
       "rank": 7,
@@ -114,61 +115,27 @@
       "platforms": [
         "multi"
       ],
-      "stars": 90736,
-      "delta": 1612
+      "stars": 92457,
+      "delta": 1721
     },
     {
       "rank": 8,
-      "id": "claude-plugins-official",
-      "name": "anthropics/claude-plugins-official",
-      "repo": "https://github.com/anthropics/claude-plugins-official",
-      "entry": "https://github.com/anthropics/claude-plugins-official/blob/4a3e6565eae08b14c5efcb842d87dee8ae99527f/README.md",
-      "description": "Anthropic 官方维护的 Claude Code 插件目录",
+      "id": "virgiliojr94-book-to-skill",
+      "name": "virgiliojr94/book-to-skill",
+      "repo": "https://github.com/virgiliojr94/book-to-skill",
+      "entry": "https://github.com/virgiliojr94/book-to-skill/blob/3a97a7115ab3c82edf47f315b544fbcefdd8559c/SKILL.md",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
       "categories": [
         "developer"
       ],
       "platforms": [
-        "claude-code"
+        "multi"
       ],
-      "stars": 35430,
-      "delta": 1599
+      "stars": 28683,
+      "delta": 1623
     },
     {
       "rank": 9,
-      "id": "humanizer",
-      "name": "blader/humanizer",
-      "repo": "https://github.com/blader/humanizer",
-      "entry": "https://github.com/blader/humanizer/blob/523374dee72d67c7b2b5f858ea0094ffda49c3ac/README.md",
-      "description": "去除文本中的 AI 生成痕迹，让写作更像真人",
-      "categories": [
-        "writer"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 38815,
-      "delta": 1593
-    },
-    {
-      "rank": 10,
-      "id": "anthropics-skills",
-      "name": "anthropics/skills",
-      "repo": "https://github.com/anthropics/skills",
-      "entry": "https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/README.md",
-      "description": "Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能",
-      "categories": [
-        "developer",
-        "writer",
-        "productivity"
-      ],
-      "platforms": [
-        "claude-code"
-      ],
-      "stars": 172482,
-      "delta": 1449
-    },
-    {
-      "rank": 11,
       "id": "nature-skills",
       "name": "Yuan1z0825/nature-skills",
       "repo": "https://github.com/Yuan1z0825/nature-skills",
@@ -181,24 +148,57 @@
       "platforms": [
         "multi"
       ],
-      "stars": 37815,
-      "delta": 1281
+      "stars": 39398,
+      "delta": 1583
     },
     {
-      "rank": 12,
-      "id": "claude-seo",
-      "name": "AgriciDaniel/claude-seo",
-      "repo": "https://github.com/AgriciDaniel/claude-seo",
-      "entry": "https://github.com/AgriciDaniel/claude-seo/blob/09d37c7b66ed3ca9c6efbdb765a805a6c76a8f01/README.md",
-      "description": "Claude Code 通用 SEO 技能：技术 SEO、E-E-A-T、schema 与 GEO/AEO",
+      "rank": 10,
+      "id": "coreyhaines-marketingskills",
+      "name": "coreyhaines31/marketingskills",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "entry": "https://github.com/coreyhaines31/marketingskills/blob/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/README.md",
+      "description": "面向 Claude Code 与 AI Agent 的营销技能：CRO、文案、SEO、数据分析与增长工程",
       "categories": [
         "marketing"
       ],
       "platforms": [
-        "claude-code"
+        "multi"
       ],
-      "stars": 15794,
-      "delta": 976
+      "stars": 47124,
+      "delta": 1044
+    },
+    {
+      "rank": 11,
+      "id": "ruvnet-ruflo",
+      "name": "ruvnet/ruflo",
+      "repo": "https://github.com/ruvnet/ruflo",
+      "entry": "https://github.com/ruvnet/ruflo/blob/5efd5937e588d6e2d20d974f14593a4795562ef8/SKILL.md",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "categories": [
+        "designer",
+        "devops"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 70706,
+      "delta": 969
+    },
+    {
+      "rank": 12,
+      "id": "vincentwei1021-video-shotcraft",
+      "name": "Vincentwei1021/video-shotcraft",
+      "repo": "https://github.com/Vincentwei1021/video-shotcraft",
+      "entry": "https://github.com/Vincentwei1021/video-shotcraft/blob/41ee360d82f4c491ba9d88a24a4add7d8ff1cf8b/SKILL.md",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+      "categories": [
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 7546,
+      "delta": 870
     },
     {
       "rank": 13,
@@ -214,93 +214,27 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 73945,
-      "delta": 905
+      "stars": 74547,
+      "delta": 602
     },
     {
       "rank": 14,
-      "id": "ruvnet-ruflo",
-      "name": "ruvnet/ruflo",
-      "repo": "https://github.com/ruvnet/ruflo",
-      "entry": "https://github.com/ruvnet/ruflo/blob/5efd5937e588d6e2d20d974f14593a4795562ef8/SKILL.md",
-      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "categories": [
-        "designer",
-        "devops"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 69737,
-      "delta": 877
-    },
-    {
-      "rank": 15,
-      "id": "coreyhaines-marketingskills",
-      "name": "coreyhaines31/marketingskills",
-      "repo": "https://github.com/coreyhaines31/marketingskills",
-      "entry": "https://github.com/coreyhaines31/marketingskills/blob/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/README.md",
-      "description": "面向 Claude Code 与 AI Agent 的营销技能：CRO、文案、SEO、数据分析与增长工程",
+      "id": "claude-seo",
+      "name": "AgriciDaniel/claude-seo",
+      "repo": "https://github.com/AgriciDaniel/claude-seo",
+      "entry": "https://github.com/AgriciDaniel/claude-seo/blob/09d37c7b66ed3ca9c6efbdb765a805a6c76a8f01/README.md",
+      "description": "Claude Code 通用 SEO 技能：技术 SEO、E-E-A-T、schema 与 GEO/AEO",
       "categories": [
         "marketing"
       ],
       "platforms": [
-        "multi"
+        "claude-code"
       ],
-      "stars": 46080,
-      "delta": 785
+      "stars": 16390,
+      "delta": 596
     },
     {
-      "rank": 16,
-      "id": "vincentwei1021-video-shotcraft",
-      "name": "Vincentwei1021/video-shotcraft",
-      "repo": "https://github.com/Vincentwei1021/video-shotcraft",
-      "entry": "https://github.com/Vincentwei1021/video-shotcraft/blob/41ee360d82f4c491ba9d88a24a4add7d8ff1cf8b/SKILL.md",
-      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
-      "categories": [
-        "product"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 6676,
-      "delta": 619
-    },
-    {
-      "rank": 17,
-      "id": "op7418-guizang-ppt-skill",
-      "name": "op7418/guizang-ppt-skill",
-      "repo": "https://github.com/op7418/guizang-ppt-skill",
-      "entry": "https://github.com/op7418/guizang-ppt-skill/blob/c91369c449d34755d320a8b81d0734000d99d1ab/SKILL.md",
-      "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
-      "categories": [
-        "designer"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 25173,
-      "delta": 540
-    },
-    {
-      "rank": 18,
-      "id": "vercel-labs-skills",
-      "name": "vercel-labs/skills",
-      "repo": "https://github.com/vercel-labs/skills",
-      "entry": "https://github.com/vercel-labs/skills/blob/c6f69c631292444cc541ac6d91e2226b0ff247da/README.md",
-      "description": "开源技能工具链，用 npx skills 一键搜索、安装和管理 Agent Skills",
-      "categories": [
-        "developer",
-        "devops"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 29972,
-      "delta": 512
-    },
-    {
-      "rank": 19,
+      "rank": 15,
       "id": "iofficeai-officecli",
       "name": "iOfficeAI/OfficeCLI",
       "repo": "https://github.com/iOfficeAI/OfficeCLI",
@@ -313,11 +247,93 @@
       "platforms": [
         "multi"
       ],
-      "stars": 29503,
-      "delta": 446
+      "stars": 30051,
+      "delta": 548
+    },
+    {
+      "rank": 16,
+      "id": "voltagent-awesome-agent-skills",
+      "name": "VoltAgent/awesome-agent-skills",
+      "repo": "https://github.com/VoltAgent/awesome-agent-skills",
+      "entry": "https://github.com/VoltAgent/awesome-agent-skills/blob/bb272b65c8162bed7e1f92d72e9323744ecdb6f5/README.md",
+      "description": "社区策展的 1000+ Agent Skills 目录，兼容 Claude Code、Codex、Cursor 等平台",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 33790,
+      "delta": 524
+    },
+    {
+      "rank": 17,
+      "id": "claude-plugins-official",
+      "name": "anthropics/claude-plugins-official",
+      "repo": "https://github.com/anthropics/claude-plugins-official",
+      "entry": "https://github.com/anthropics/claude-plugins-official/blob/4a3e6565eae08b14c5efcb842d87dee8ae99527f/README.md",
+      "description": "Anthropic 官方维护的 Claude Code 插件目录",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 35942,
+      "delta": 512
+    },
+    {
+      "rank": 18,
+      "id": "op7418-guizang-ppt-skill",
+      "name": "op7418/guizang-ppt-skill",
+      "repo": "https://github.com/op7418/guizang-ppt-skill",
+      "entry": "https://github.com/op7418/guizang-ppt-skill/blob/c91369c449d34755d320a8b81d0734000d99d1ab/SKILL.md",
+      "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "categories": [
+        "designer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 25679,
+      "delta": 506
+    },
+    {
+      "rank": 19,
+      "id": "vercel-labs-skills",
+      "name": "vercel-labs/skills",
+      "repo": "https://github.com/vercel-labs/skills",
+      "entry": "https://github.com/vercel-labs/skills/blob/c6f69c631292444cc541ac6d91e2226b0ff247da/README.md",
+      "description": "开源技能工具链，用 npx skills 一键搜索、安装和管理 Agent Skills",
+      "categories": [
+        "developer",
+        "devops"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 30471,
+      "delta": 499
     },
     {
       "rank": 20,
+      "id": "nidhinjs-prompt-master",
+      "name": "nidhinjs/prompt-master",
+      "repo": "https://github.com/nidhinjs/prompt-master",
+      "entry": "https://github.com/nidhinjs/prompt-master/blob/d15eabbe5d2122eedc060bae8a771381e9873d1b/SKILL.md",
+      "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 12399,
+      "delta": 399
+    },
+    {
+      "rank": 21,
       "id": "obsidian-skills",
       "name": "kepano/obsidian-skills",
       "repo": "https://github.com/kepano/obsidian-skills",
@@ -330,59 +346,11 @@
       "platforms": [
         "multi"
       ],
-      "stars": 47509,
-      "delta": 442
-    },
-    {
-      "rank": 21,
-      "id": "aris-research",
-      "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "repo": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
-      "entry": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/e12e07c7b85ee1a4dc07e5463089aa16836af2bf/README.md",
-      "description": "ARIS：Markdown 版自主 ML 研究技能，支持跨模型评审循环",
-      "categories": [
-        "research"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 15445,
-      "delta": 434
+      "stars": 47903,
+      "delta": 394
     },
     {
       "rank": 22,
-      "id": "alirezarezvani-claude-skills",
-      "name": "alirezarezvani/claude-skills",
-      "repo": "https://github.com/alirezarezvani/claude-skills",
-      "entry": "https://github.com/alirezarezvani/claude-skills/blob/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/README.md",
-      "description": "345 个 Claude Code 技能与插件合集，覆盖开发、运维与办公场景",
-      "categories": [
-        "developer"
-      ],
-      "platforms": [
-        "claude-code"
-      ],
-      "stars": 25223,
-      "delta": 406
-    },
-    {
-      "rank": 23,
-      "id": "nidhinjs-prompt-master",
-      "name": "nidhinjs/prompt-master",
-      "repo": "https://github.com/nidhinjs/prompt-master",
-      "entry": "https://github.com/nidhinjs/prompt-master/blob/d15eabbe5d2122eedc060bae8a771381e9873d1b/SKILL.md",
-      "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
-      "categories": [
-        "developer"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 12000,
-      "delta": 384
-    },
-    {
-      "rank": 24,
       "id": "agentic-awesome-skills",
       "name": "sickn33/agentic-awesome-skills",
       "repo": "https://github.com/sickn33/agentic-awesome-skills",
@@ -394,11 +362,11 @@
       "platforms": [
         "multi"
       ],
-      "stars": 45654,
-      "delta": 378
+      "stars": 46024,
+      "delta": 370
     },
     {
-      "rank": 25,
+      "rank": 23,
       "id": "awesome-claude-code",
       "name": "hesreallyhim/awesome-claude-code",
       "repo": "https://github.com/hesreallyhim/awesome-claude-code",
@@ -410,24 +378,56 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 53199,
+      "stars": 53568,
       "delta": 369
     },
     {
+      "rank": 24,
+      "id": "alirezarezvani-claude-skills",
+      "name": "alirezarezvani/claude-skills",
+      "repo": "https://github.com/alirezarezvani/claude-skills",
+      "entry": "https://github.com/alirezarezvani/claude-skills/blob/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/README.md",
+      "description": "345 个 Claude Code 技能与插件合集，覆盖开发、运维与办公场景",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 25582,
+      "delta": 359
+    },
+    {
+      "rank": 25,
+      "id": "aris-research",
+      "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "repo": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "entry": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/e12e07c7b85ee1a4dc07e5463089aa16836af2bf/README.md",
+      "description": "ARIS：Markdown 版自主 ML 研究技能，支持跨模型评审循环",
+      "categories": [
+        "research"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 15755,
+      "delta": 310
+    },
+    {
       "rank": 26,
-      "id": "titanwings-colleague-skill",
-      "name": "titanwings/colleague-skill",
-      "repo": "https://github.com/titanwings/colleague-skill",
-      "entry": "https://github.com/titanwings/colleague-skill/blob/22d96a76e05b91939493f604a0a46198d0d7f978/SKILL.md",
-      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+      "id": "anbeime-skill",
+      "name": "anbeime/skill",
+      "repo": "https://github.com/anbeime/skill",
+      "entry": "https://github.com/anbeime/skill/blob/c54ef738f2aa0b06b78d669761d510e12b4dd864/SKILL.md",
+      "description": "收录最全、更新最快的技能Skills 商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的 72 个精选技能包。所有技能已打包完成，可直接安装使用！ 该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理。",
       "categories": [
         "developer"
       ],
       "platforms": [
         "multi"
       ],
-      "stars": 24138,
-      "delta": 330
+      "stars": 6227,
+      "delta": 296
     },
     {
       "rank": 27,
@@ -442,44 +442,11 @@
       "platforms": [
         "copilot"
       ],
-      "stars": 38422,
-      "delta": 293
+      "stars": 38669,
+      "delta": 247
     },
     {
       "rank": 28,
-      "id": "anbeime-skill",
-      "name": "anbeime/skill",
-      "repo": "https://github.com/anbeime/skill",
-      "entry": "https://github.com/anbeime/skill/blob/c54ef738f2aa0b06b78d669761d510e12b4dd864/SKILL.md",
-      "description": "收录最全、更新最快的技能Skills 商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的 72 个精选技能包。所有技能已打包完成，可直接安装使用！ 该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理。",
-      "categories": [
-        "developer"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 5931,
-      "delta": 279
-    },
-    {
-      "rank": 29,
-      "id": "agentskills-spec",
-      "name": "agentskills/agentskills",
-      "repo": "https://github.com/agentskills/agentskills",
-      "entry": "https://github.com/agentskills/agentskills/blob/69ef37e9424c0a7ea9dd2293b559e43ec8176379/README.md",
-      "description": "Agent Skills 官方规范与文档仓库，定义 SKILL.md 标准与最佳实践",
-      "categories": [
-        "developer",
-        "productivity"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 24859,
-      "delta": 261
-    },
-    {
-      "rank": 30,
       "id": "pm-skills",
       "name": "phuryn/pm-skills",
       "repo": "https://github.com/phuryn/pm-skills",
@@ -491,11 +458,27 @@
       "platforms": [
         "multi"
       ],
-      "stars": 25783,
-      "delta": 244
+      "stars": 26024,
+      "delta": 241
     },
     {
-      "rank": 31,
+      "rank": 29,
+      "id": "titanwings-colleague-skill",
+      "name": "titanwings/colleague-skill",
+      "repo": "https://github.com/titanwings/colleague-skill",
+      "entry": "https://github.com/titanwings/colleague-skill/blob/22d96a76e05b91939493f604a0a46198d0d7f978/SKILL.md",
+      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 24374,
+      "delta": 236
+    },
+    {
+      "rank": 30,
       "id": "titanwings-distilly",
       "name": "titanwings/distilly",
       "repo": "https://github.com/titanwings/distilly",
@@ -507,27 +490,28 @@
       "platforms": [
         "multi"
       ],
-      "stars": 24138,
-      "delta": 243
+      "stars": 24374,
+      "delta": 236
     },
     {
-      "rank": 32,
-      "id": "wshobson-agents",
-      "name": "wshobson/agents",
-      "repo": "https://github.com/wshobson/agents",
-      "entry": "https://github.com/wshobson/agents/blob/c4b82b0ad771190355eb8e204b1329732a18449a/README.md",
-      "description": "多平台智能体插件市场，覆盖 Claude Code、Codex CLI、Cursor 等",
+      "rank": 31,
+      "id": "planning-with-files",
+      "name": "OthmanAdi/planning-with-files",
+      "repo": "https://github.com/OthmanAdi/planning-with-files",
+      "entry": "https://github.com/OthmanAdi/planning-with-files/blob/e8f505a4f5025df5b070494e46c25789582bff55/README.md",
+      "description": "基于文件的持久化规划技能，适合长任务与多智能体协作",
       "categories": [
-        "developer"
+        "developer",
+        "product"
       ],
       "platforms": [
         "multi"
       ],
-      "stars": 39248,
-      "delta": 218
+      "stars": 26648,
+      "delta": 233
     },
     {
-      "rank": 33,
+      "rank": 32,
       "id": "baoyu-skills",
       "name": "JimLiu/baoyu-skills",
       "repo": "https://github.com/JimLiu/baoyu-skills",
@@ -540,24 +524,41 @@
       "platforms": [
         "multi"
       ],
-      "stars": 25461,
-      "delta": 211
+      "stars": 25674,
+      "delta": 213
     },
     {
-      "rank": 34,
-      "id": "ai-research-skills",
-      "name": "Orchestra-Research/AI-Research-SKILLs",
-      "repo": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
-      "entry": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/README.md",
-      "description": "AI 研究与工程技能库：选题、ML 论文写作与学术绘图",
+      "rank": 33,
+      "id": "agentskills-spec",
+      "name": "agentskills/agentskills",
+      "repo": "https://github.com/agentskills/agentskills",
+      "entry": "https://github.com/agentskills/agentskills/blob/69ef37e9424c0a7ea9dd2293b559e43ec8176379/README.md",
+      "description": "Agent Skills 官方规范与文档仓库，定义 SKILL.md 标准与最佳实践",
       "categories": [
-        "research"
+        "developer",
+        "productivity"
       ],
       "platforms": [
         "multi"
       ],
-      "stars": 12154,
-      "delta": 204
+      "stars": 25068,
+      "delta": 209
+    },
+    {
+      "rank": 34,
+      "id": "wshobson-agents",
+      "name": "wshobson/agents",
+      "repo": "https://github.com/wshobson/agents",
+      "entry": "https://github.com/wshobson/agents/blob/c4b82b0ad771190355eb8e204b1329732a18449a/README.md",
+      "description": "多平台智能体插件市场，覆盖 Claude Code、Codex CLI、Cursor 等",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 39448,
+      "delta": 200
     },
     {
       "rank": 35,
@@ -572,24 +573,24 @@
       "platforms": [
         "codex"
       ],
-      "stars": 25273,
-      "delta": 155
+      "stars": 25461,
+      "delta": 188
     },
     {
       "rank": 36,
-      "id": "product-manager-skills",
-      "name": "deanpeters/Product-Manager-Skills",
-      "repo": "https://github.com/deanpeters/Product-Manager-Skills",
-      "entry": "https://github.com/deanpeters/Product-Manager-Skills/blob/e58cff6818f50142bcd64558bfad5bf7a99c6f9b/README.md",
-      "description": "产品经理技能框架：基于实战方法，适配 Claude Code、Codex 等 AI Agent",
+      "id": "ai-research-skills",
+      "name": "Orchestra-Research/AI-Research-SKILLs",
+      "repo": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "entry": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/README.md",
+      "description": "AI 研究与工程技能库：选题、ML 论文写作与学术绘图",
       "categories": [
-        "product"
+        "research"
       ],
       "platforms": [
         "multi"
       ],
-      "stars": 6728,
-      "delta": 136
+      "stars": 12339,
+      "delta": 185
     },
     {
       "rank": 37,
@@ -604,44 +605,11 @@
       "platforms": [
         "multi"
       ],
-      "stars": 19004,
-      "delta": 135
+      "stars": 19166,
+      "delta": 162
     },
     {
       "rank": 38,
-      "id": "google-workspace-cli",
-      "name": "googleworkspace/cli",
-      "repo": "https://github.com/googleworkspace/cli",
-      "entry": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/README.md",
-      "description": "Google Workspace 官方命令行技能：Drive、Gmail、日历、表格一体化操作",
-      "categories": [
-        "productivity"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 30644,
-      "delta": 127
-    },
-    {
-      "rank": 39,
-      "id": "planning-with-files",
-      "name": "OthmanAdi/planning-with-files",
-      "repo": "https://github.com/OthmanAdi/planning-with-files",
-      "entry": "https://github.com/OthmanAdi/planning-with-files/blob/e8f505a4f5025df5b070494e46c25789582bff55/README.md",
-      "description": "基于文件的持久化规划技能，适合长任务与多智能体协作",
-      "categories": [
-        "developer",
-        "product"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 26415,
-      "delta": 127
-    },
-    {
-      "rank": 40,
       "id": "awesome-openclaw-skills",
       "name": "VoltAgent/awesome-openclaw-skills",
       "repo": "https://github.com/VoltAgent/awesome-openclaw-skills",
@@ -654,8 +622,40 @@
       "platforms": [
         "multi"
       ],
-      "stars": 52245,
-      "delta": 124
+      "stars": 52399,
+      "delta": 154
+    },
+    {
+      "rank": 39,
+      "id": "google-workspace-cli",
+      "name": "googleworkspace/cli",
+      "repo": "https://github.com/googleworkspace/cli",
+      "entry": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/README.md",
+      "description": "Google Workspace 官方命令行技能：Drive、Gmail、日历、表格一体化操作",
+      "categories": [
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 30753,
+      "delta": 109
+    },
+    {
+      "rank": 40,
+      "id": "product-manager-skills",
+      "name": "deanpeters/Product-Manager-Skills",
+      "repo": "https://github.com/deanpeters/Product-Manager-Skills",
+      "entry": "https://github.com/deanpeters/Product-Manager-Skills/blob/e58cff6818f50142bcd64558bfad5bf7a99c6f9b/README.md",
+      "description": "产品经理技能框架：基于实战方法，适配 Claude Code、Codex 等 AI Agent",
+      "categories": [
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 6835,
+      "delta": 107
     },
     {
       "rank": 41,
@@ -671,11 +671,43 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6908,
-      "delta": 121
+      "stars": 6976,
+      "delta": 68
     },
     {
       "rank": 42,
+      "id": "aaron-marketing-skills",
+      "name": "aaron-he-zhu/aaron-marketing-skills",
+      "repo": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "entry": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/72877356b2c796f28170ab2d24671deaa27ba8e1/README.md",
+      "description": "120 个营销技能 + 8 个命令：SEO/GEO、KOL、付费广告与邮件",
+      "categories": [
+        "marketing"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 2732,
+      "delta": 58
+    },
+    {
+      "rank": 43,
+      "id": "notfair-plugin",
+      "name": "nowork-studio/notfair-plugin",
+      "repo": "https://github.com/nowork-studio/notfair-plugin",
+      "entry": "https://github.com/nowork-studio/notfair-plugin/blob/0906da31ad67ffe0372c8b2987cb93dc461bdf8d/README.md",
+      "description": "开源 SEO/GEO 与营销技能集合，供 AI Agent 使用",
+      "categories": [
+        "marketing"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 3485,
+      "delta": 55
+    },
+    {
+      "rank": 44,
       "id": "wondelai-skills",
       "name": "wondelai/skills",
       "repo": "https://github.com/wondelai/skills",
@@ -688,40 +720,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 2058,
-      "delta": 66
-    },
-    {
-      "rank": 43,
-      "id": "web-quality-skills",
-      "name": "addyosmani/web-quality-skills",
-      "repo": "https://github.com/addyosmani/web-quality-skills",
-      "entry": "https://github.com/addyosmani/web-quality-skills/blob/95d6e255afe1596b557d7a8498517884438f5b3a/README.md",
-      "description": "基于 Lighthouse 与 Core Web Vitals 的 Web 质量优化技能",
-      "categories": [
-        "developer"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 2724,
-      "delta": 52
-    },
-    {
-      "rank": 44,
-      "id": "aaron-marketing-skills",
-      "name": "aaron-he-zhu/aaron-marketing-skills",
-      "repo": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
-      "entry": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/72877356b2c796f28170ab2d24671deaa27ba8e1/README.md",
-      "description": "120 个营销技能 + 8 个命令：SEO/GEO、KOL、付费广告与邮件",
-      "categories": [
-        "marketing"
-      ],
-      "platforms": [
-        "claude-code"
-      ],
-      "stars": 2674,
-      "delta": 52
+      "stars": 2106,
+      "delta": 48
     },
     {
       "rank": 45,
@@ -736,24 +736,24 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 2571,
-      "delta": 49
+      "stars": 2610,
+      "delta": 39
     },
     {
       "rank": 46,
-      "id": "ai-marketing-skills",
-      "name": "ericosiu/ai-marketing-skills",
-      "repo": "https://github.com/ericosiu/ai-marketing-skills",
-      "entry": "https://github.com/ericosiu/ai-marketing-skills/blob/511cc89d186a185e7a4faefa4b54e9b74c1ec366/README.md",
-      "description": "开源 AI 营销技能：增长实验、销售漏斗、内容运营、外联与 SEO",
+      "id": "web-quality-skills",
+      "name": "addyosmani/web-quality-skills",
+      "repo": "https://github.com/addyosmani/web-quality-skills",
+      "entry": "https://github.com/addyosmani/web-quality-skills/blob/95d6e255afe1596b557d7a8498517884438f5b3a/README.md",
+      "description": "基于 Lighthouse 与 Core Web Vitals 的 Web 质量优化技能",
       "categories": [
-        "marketing"
+        "developer"
       ],
       "platforms": [
         "multi"
       ],
-      "stars": 3459,
-      "delta": 45
+      "stars": 2754,
+      "delta": 30
     },
     {
       "rank": 47,
@@ -769,27 +769,11 @@
       "platforms": [
         "multi"
       ],
-      "stars": 1782,
-      "delta": 43
+      "stars": 1809,
+      "delta": 27
     },
     {
       "rank": 48,
-      "id": "notfair-plugin",
-      "name": "nowork-studio/notfair-plugin",
-      "repo": "https://github.com/nowork-studio/notfair-plugin",
-      "entry": "https://github.com/nowork-studio/notfair-plugin/blob/0906da31ad67ffe0372c8b2987cb93dc461bdf8d/README.md",
-      "description": "开源 SEO/GEO 与营销技能集合，供 AI Agent 使用",
-      "categories": [
-        "marketing"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 3430,
-      "delta": 39
-    },
-    {
-      "rank": 49,
       "id": "microsoft-skills",
       "name": "microsoft/skills",
       "repo": "https://github.com/microsoft/skills",
@@ -802,28 +786,27 @@
       "platforms": [
         "multi"
       ],
-      "stars": 2967,
-      "delta": 33
+      "stars": 2993,
+      "delta": 26
     },
     {
-      "rank": 50,
-      "id": "heilcheng-awesome-agent-skills",
-      "name": "heilcheng/awesome-agent-skills",
-      "repo": "https://github.com/heilcheng/awesome-agent-skills",
-      "entry": "https://github.com/heilcheng/awesome-agent-skills/blob/de9056857eb0e96da833469d2ee3ac392058225d/README.md",
-      "description": "面向工程团队的 Agent Skills 精选目录，含教程与实战指南",
+      "rank": 49,
+      "id": "ai-marketing-skills",
+      "name": "ericosiu/ai-marketing-skills",
+      "repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "entry": "https://github.com/ericosiu/ai-marketing-skills/blob/511cc89d186a185e7a4faefa4b54e9b74c1ec366/README.md",
+      "description": "开源 AI 营销技能：增长实验、销售漏斗、内容运营、外联与 SEO",
       "categories": [
-        "developer",
-        "productivity"
+        "marketing"
       ],
       "platforms": [
         "multi"
       ],
-      "stars": 6155,
-      "delta": 28
+      "stars": 3484,
+      "delta": 25
     },
     {
-      "rank": 51,
+      "rank": 50,
       "id": "qinyan-academic-skills",
       "name": "LeonChaoX/qinyan-academic-skills",
       "repo": "https://github.com/LeonChaoX/qinyan-academic-skills",
@@ -836,11 +819,11 @@
       "platforms": [
         "multi"
       ],
-      "stars": 846,
-      "delta": 28
+      "stars": 871,
+      "delta": 25
     },
     {
-      "rank": 52,
+      "rank": 51,
       "id": "nevamind-ai-memu",
       "name": "NevaMind-AI/memU",
       "repo": "https://github.com/NevaMind-AI/memU",
@@ -852,8 +835,25 @@
       "platforms": [
         "multi"
       ],
-      "stars": 14359,
-      "delta": 25
+      "stars": 14383,
+      "delta": 24
+    },
+    {
+      "rank": 52,
+      "id": "heilcheng-awesome-agent-skills",
+      "name": "heilcheng/awesome-agent-skills",
+      "repo": "https://github.com/heilcheng/awesome-agent-skills",
+      "entry": "https://github.com/heilcheng/awesome-agent-skills/blob/de9056857eb0e96da833469d2ee3ac392058225d/README.md",
+      "description": "面向工程团队的 Agent Skills 精选目录，含教程与实战指南",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 6174,
+      "delta": 19
     },
     {
       "rank": 53,
@@ -868,8 +868,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 2314,
-      "delta": 18
+      "stars": 2329,
+      "delta": 15
     },
     {
       "rank": 54,
@@ -885,8 +885,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 431,
-      "delta": 5
+      "stars": 442,
+      "delta": 11
     },
     {
       "rank": 55,
@@ -902,8 +902,8 @@
       "platforms": [
         "multi"
       ],
-      "stars": 157,
-      "delta": 3
+      "stars": 163,
+      "delta": 6
     },
     {
       "rank": 56,
@@ -919,26 +919,865 @@
       "platforms": [
         "multi"
       ],
-      "stars": 19,
-      "delta": 2
+      "stars": 22,
+      "delta": 3
+    },
+    {
+      "rank": 57,
+      "id": "terminal-skills",
+      "name": "chaterm/terminal-skills",
+      "repo": "https://github.com/chaterm/terminal-skills",
+      "entry": "https://github.com/chaterm/terminal-skills/blob/464c2954287ad0c0b9addb1ebfbb2150ddc0de24/README.md",
+      "description": "终端与 Kubernetes 的公开 Agent 技能",
+      "categories": [
+        "devops"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 58,
+      "delta": 1
     }
   ],
   "monthly": [
     {
       "rank": 1,
-      "id": "titanwings-distilly",
-      "name": "titanwings/distilly",
-      "repo": "https://github.com/titanwings/distilly",
-      "entry": "https://github.com/titanwings/distilly/blob/868c293f56116081733b78fc7db5f91634d7b62a/SKILL.md",
-      "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
+      "id": "ponytail",
+      "name": "DietrichGebert/ponytail",
+      "repo": "https://github.com/DietrichGebert/ponytail",
+      "entry": "https://github.com/DietrichGebert/ponytail/blob/2ed6c52c9d7e5e56942508591085fd45dea277d3/README.md",
+      "description": "让 AI 智能体像资深工程师一样思考与工作，写出更贴近实战的代码",
       "categories": [
         "developer"
       ],
       "platforms": [
         "multi"
       ],
-      "stars": 24138,
-      "delta": 1031
+      "stars": 128000,
+      "delta": 31025
+    },
+    {
+      "rank": 2,
+      "id": "obra-superpowers",
+      "name": "obra/superpowers",
+      "repo": "https://github.com/obra/superpowers",
+      "entry": "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md",
+      "description": "Agentic 技能框架与软件开发方法论，内置 TDD、代码审查等高质量技能包",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 282116,
+      "delta": 14370
+    },
+    {
+      "rank": 3,
+      "id": "taste-skill",
+      "name": "Leonxlnx/taste-skill",
+      "repo": "https://github.com/Leonxlnx/taste-skill",
+      "entry": "https://github.com/Leonxlnx/taste-skill/blob/e988add20dab0fa97d7a76781c48961c8184288e/README.md",
+      "description": "让 AI 输出更有品味，告别千篇一律的生成内容",
+      "categories": [
+        "designer",
+        "writer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 84620,
+      "delta": 11872
+    },
+    {
+      "rank": 4,
+      "id": "addyosmani-agent-skills",
+      "name": "addyosmani/agent-skills",
+      "repo": "https://github.com/addyosmani/agent-skills",
+      "entry": "https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/README.md",
+      "description": "生产级工程技能集合，为 AI 编码智能体提供 Web 质量与工程实践技能",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 92457,
+      "delta": 10120
+    },
+    {
+      "rank": 5,
+      "id": "humanizer",
+      "name": "blader/humanizer",
+      "repo": "https://github.com/blader/humanizer",
+      "entry": "https://github.com/blader/humanizer/blob/523374dee72d67c7b2b5f858ea0094ffda49c3ac/README.md",
+      "description": "去除文本中的 AI 生成痕迹，让写作更像真人",
+      "categories": [
+        "writer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 43506,
+      "delta": 9576
+    },
+    {
+      "rank": 6,
+      "id": "anthropics-skills",
+      "name": "anthropics/skills",
+      "repo": "https://github.com/anthropics/skills",
+      "entry": "https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/README.md",
+      "description": "Anthropic 官方技能集合，覆盖文档、创意与研发场景，含 docx/pdf/pptx/xlsx 文档技能",
+      "categories": [
+        "developer",
+        "writer",
+        "productivity"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 174579,
+      "delta": 7987
+    },
+    {
+      "rank": 7,
+      "id": "nature-skills",
+      "name": "Yuan1z0825/nature-skills",
+      "repo": "https://github.com/Yuan1z0825/nature-skills",
+      "entry": "https://github.com/Yuan1z0825/nature-skills/blob/d1fb103c635e63288c0f2174460276b1ab7582d8/README.md",
+      "description": "Nature 风格科研技能：论文阅读、写作、润色与审稿回复",
+      "categories": [
+        "research",
+        "writer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 39398,
+      "delta": 5764
+    },
+    {
+      "rank": 8,
+      "id": "iofficeai-officecli",
+      "name": "iOfficeAI/OfficeCLI",
+      "repo": "https://github.com/iOfficeAI/OfficeCLI",
+      "entry": "https://github.com/iOfficeAI/OfficeCLI/blob/459b1a473faf33f2f52e697ac6d265a3f67b176a/SKILL.md",
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "categories": [
+        "designer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 30051,
+      "delta": 4107
+    },
+    {
+      "rank": 9,
+      "id": "voltagent-awesome-agent-skills",
+      "name": "VoltAgent/awesome-agent-skills",
+      "repo": "https://github.com/VoltAgent/awesome-agent-skills",
+      "entry": "https://github.com/VoltAgent/awesome-agent-skills/blob/bb272b65c8162bed7e1f92d72e9323744ecdb6f5/README.md",
+      "description": "社区策展的 1000+ Agent Skills 目录，兼容 Claude Code、Codex、Cursor 等平台",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 33790,
+      "delta": 4085
+    },
+    {
+      "rank": 10,
+      "id": "vincentwei1021-video-shotcraft",
+      "name": "Vincentwei1021/video-shotcraft",
+      "repo": "https://github.com/Vincentwei1021/video-shotcraft",
+      "entry": "https://github.com/Vincentwei1021/video-shotcraft/blob/41ee360d82f4c491ba9d88a24a4add7d8ff1cf8b/SKILL.md",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+      "categories": [
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 7546,
+      "delta": 3959
+    },
+    {
+      "rank": 11,
+      "id": "coreyhaines-marketingskills",
+      "name": "coreyhaines31/marketingskills",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "entry": "https://github.com/coreyhaines31/marketingskills/blob/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/README.md",
+      "description": "面向 Claude Code 与 AI Agent 的营销技能：CRO、文案、SEO、数据分析与增长工程",
+      "categories": [
+        "marketing"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 47124,
+      "delta": 3857
+    },
+    {
+      "rank": 12,
+      "id": "obsidian-skills",
+      "name": "kepano/obsidian-skills",
+      "repo": "https://github.com/kepano/obsidian-skills",
+      "entry": "https://github.com/kepano/obsidian-skills/blob/a1dc48e68138490d522c04cbf5822214c6eb1202/README.md",
+      "description": "Obsidian 智能体技能：通过 CLI 与开放格式高效管理笔记",
+      "categories": [
+        "writer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 47903,
+      "delta": 3651
+    },
+    {
+      "rank": 13,
+      "id": "ruvnet-ruflo",
+      "name": "ruvnet/ruflo",
+      "repo": "https://github.com/ruvnet/ruflo",
+      "entry": "https://github.com/ruvnet/ruflo/blob/5efd5937e588d6e2d20d974f14593a4795562ef8/SKILL.md",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "categories": [
+        "designer",
+        "devops"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 70706,
+      "delta": 3547
+    },
+    {
+      "rank": 14,
+      "id": "claude-seo",
+      "name": "AgriciDaniel/claude-seo",
+      "repo": "https://github.com/AgriciDaniel/claude-seo",
+      "entry": "https://github.com/AgriciDaniel/claude-seo/blob/09d37c7b66ed3ca9c6efbdb765a805a6c76a8f01/README.md",
+      "description": "Claude Code 通用 SEO 技能：技术 SEO、E-E-A-T、schema 与 GEO/AEO",
+      "categories": [
+        "marketing"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 16390,
+      "delta": 2940
+    },
+    {
+      "rank": 15,
+      "id": "claude-plugins-official",
+      "name": "anthropics/claude-plugins-official",
+      "repo": "https://github.com/anthropics/claude-plugins-official",
+      "entry": "https://github.com/anthropics/claude-plugins-official/blob/4a3e6565eae08b14c5efcb842d87dee8ae99527f/README.md",
+      "description": "Anthropic 官方维护的 Claude Code 插件目录",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 35942,
+      "delta": 2765
+    },
+    {
+      "rank": 16,
+      "id": "awesome-claude-skills",
+      "name": "ComposioHQ/awesome-claude-skills",
+      "repo": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "entry": "https://github.com/ComposioHQ/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/README.md",
+      "description": "Claude Skills 精选目录，聚合社区优质技能、资源与工具",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 74547,
+      "delta": 2616
+    },
+    {
+      "rank": 17,
+      "id": "op7418-guizang-ppt-skill",
+      "name": "op7418/guizang-ppt-skill",
+      "repo": "https://github.com/op7418/guizang-ppt-skill",
+      "entry": "https://github.com/op7418/guizang-ppt-skill/blob/c91369c449d34755d320a8b81d0734000d99d1ab/SKILL.md",
+      "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "categories": [
+        "designer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 25679,
+      "delta": 2356
+    },
+    {
+      "rank": 18,
+      "id": "vercel-labs-skills",
+      "name": "vercel-labs/skills",
+      "repo": "https://github.com/vercel-labs/skills",
+      "entry": "https://github.com/vercel-labs/skills/blob/c6f69c631292444cc541ac6d91e2226b0ff247da/README.md",
+      "description": "开源技能工具链，用 npx skills 一键搜索、安装和管理 Agent Skills",
+      "categories": [
+        "developer",
+        "devops"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 30471,
+      "delta": 2317
+    },
+    {
+      "rank": 19,
+      "id": "awesome-claude-code",
+      "name": "hesreallyhim/awesome-claude-code",
+      "repo": "https://github.com/hesreallyhim/awesome-claude-code",
+      "entry": "https://github.com/hesreallyhim/awesome-claude-code/blob/fdc63ce220b1e795c37ab6f05f1bf0149bf4f0bd/README.md",
+      "description": "Claude Code 精选资源合集，涵盖技能、插件与最佳实践",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 53568,
+      "delta": 1815
+    },
+    {
+      "rank": 20,
+      "id": "alirezarezvani-claude-skills",
+      "name": "alirezarezvani/claude-skills",
+      "repo": "https://github.com/alirezarezvani/claude-skills",
+      "entry": "https://github.com/alirezarezvani/claude-skills/blob/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/README.md",
+      "description": "345 个 Claude Code 技能与插件合集，覆盖开发、运维与办公场景",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 25582,
+      "delta": 1710
+    },
+    {
+      "rank": 21,
+      "id": "agentic-awesome-skills",
+      "name": "sickn33/agentic-awesome-skills",
+      "repo": "https://github.com/sickn33/agentic-awesome-skills",
+      "entry": "https://github.com/sickn33/agentic-awesome-skills/blob/1dd6daec9f43c59b5c2082c36abc59c9418b41c6/README.md",
+      "description": "Agent 优先的本地技能目录与发现控制台，提供完整目录发现与安装路径",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 46024,
+      "delta": 1488
+    },
+    {
+      "rank": 22,
+      "id": "aris-research",
+      "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "repo": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "entry": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/e12e07c7b85ee1a4dc07e5463089aa16836af2bf/README.md",
+      "description": "ARIS：Markdown 版自主 ML 研究技能，支持跨模型评审循环",
+      "categories": [
+        "research"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 15755,
+      "delta": 1421
+    },
+    {
+      "rank": 23,
+      "id": "anbeime-skill",
+      "name": "anbeime/skill",
+      "repo": "https://github.com/anbeime/skill",
+      "entry": "https://github.com/anbeime/skill/blob/c54ef738f2aa0b06b78d669761d510e12b4dd864/SKILL.md",
+      "description": "收录最全、更新最快的技能Skills 商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的 72 个精选技能包。所有技能已打包完成，可直接安装使用！ 该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理。",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 6227,
+      "delta": 1378
+    },
+    {
+      "rank": 24,
+      "id": "nidhinjs-prompt-master",
+      "name": "nidhinjs/prompt-master",
+      "repo": "https://github.com/nidhinjs/prompt-master",
+      "entry": "https://github.com/nidhinjs/prompt-master/blob/d15eabbe5d2122eedc060bae8a771381e9873d1b/SKILL.md",
+      "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 12399,
+      "delta": 1356
+    },
+    {
+      "rank": 25,
+      "id": "awesome-copilot",
+      "name": "github/awesome-copilot",
+      "repo": "https://github.com/github/awesome-copilot",
+      "entry": "https://github.com/github/awesome-copilot/blob/55b952d2f9bd5b092d2f4b87fdbcf205a1a5ccc5/README.md",
+      "description": "GitHub Copilot 社区技能、指令与配置合集",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "copilot"
+      ],
+      "stars": 38669,
+      "delta": 1158
+    },
+    {
+      "rank": 26,
+      "id": "agentskills-spec",
+      "name": "agentskills/agentskills",
+      "repo": "https://github.com/agentskills/agentskills",
+      "entry": "https://github.com/agentskills/agentskills/blob/69ef37e9424c0a7ea9dd2293b559e43ec8176379/README.md",
+      "description": "Agent Skills 官方规范与文档仓库，定义 SKILL.md 标准与最佳实践",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 25068,
+      "delta": 1139
+    },
+    {
+      "rank": 27,
+      "id": "pm-skills",
+      "name": "phuryn/pm-skills",
+      "repo": "https://github.com/phuryn/pm-skills",
+      "entry": "https://github.com/phuryn/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/README.md",
+      "description": "产品经理技能市场：100+ 技能覆盖发现、策略、执行与增长",
+      "categories": [
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 26024,
+      "delta": 1103
+    },
+    {
+      "rank": 28,
+      "id": "baoyu-skills",
+      "name": "JimLiu/baoyu-skills",
+      "repo": "https://github.com/JimLiu/baoyu-skills",
+      "entry": "https://github.com/JimLiu/baoyu-skills/blob/6b7a2e417500561a5ecdd0b168332f4142584617/README.md",
+      "description": "中文社区热门的 Agent 技能合集（宝玉出品），覆盖多种日常与开发场景",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 25674,
+      "delta": 1020
+    },
+    {
+      "rank": 29,
+      "id": "wshobson-agents",
+      "name": "wshobson/agents",
+      "repo": "https://github.com/wshobson/agents",
+      "entry": "https://github.com/wshobson/agents/blob/c4b82b0ad771190355eb8e204b1329732a18449a/README.md",
+      "description": "多平台智能体插件市场，覆盖 Claude Code、Codex CLI、Cursor 等",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 39448,
+      "delta": 934
+    },
+    {
+      "rank": 30,
+      "id": "openai-skills",
+      "name": "openai/skills",
+      "repo": "https://github.com/openai/skills",
+      "entry": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/README.md",
+      "description": "OpenAI 官方 Codex 技能目录，提供面向 Codex 的 SKILL.md 技能集合",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "codex"
+      ],
+      "stars": 25461,
+      "delta": 892
+    },
+    {
+      "rank": 31,
+      "id": "ai-research-skills",
+      "name": "Orchestra-Research/AI-Research-SKILLs",
+      "repo": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "entry": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/README.md",
+      "description": "AI 研究与工程技能库：选题、ML 论文写作与学术绘图",
+      "categories": [
+        "research"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 12339,
+      "delta": 885
+    },
+    {
+      "rank": 32,
+      "id": "teng-lin-notebooklm-py",
+      "name": "teng-lin/notebooklm-py",
+      "repo": "https://github.com/teng-lin/notebooklm-py",
+      "entry": "https://github.com/teng-lin/notebooklm-py/blob/07c8b61924667509177efca863a4aff8a632c2e7/SKILL.md",
+      "description": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+      "categories": [
+        "designer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 19166,
+      "delta": 663
+    },
+    {
+      "rank": 33,
+      "id": "planning-with-files",
+      "name": "OthmanAdi/planning-with-files",
+      "repo": "https://github.com/OthmanAdi/planning-with-files",
+      "entry": "https://github.com/OthmanAdi/planning-with-files/blob/e8f505a4f5025df5b070494e46c25789582bff55/README.md",
+      "description": "基于文件的持久化规划技能，适合长任务与多智能体协作",
+      "categories": [
+        "developer",
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 26648,
+      "delta": 645
+    },
+    {
+      "rank": 34,
+      "id": "awesome-openclaw-skills",
+      "name": "VoltAgent/awesome-openclaw-skills",
+      "repo": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "entry": "https://github.com/VoltAgent/awesome-openclaw-skills/blob/517a94d8d3e6cd27039ceefdbad36f19d4b73389/README.md",
+      "description": "OpenClaw 技能精选集，5400+ 技能筛选分类",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 52399,
+      "delta": 636
+    },
+    {
+      "rank": 35,
+      "id": "product-manager-skills",
+      "name": "deanpeters/Product-Manager-Skills",
+      "repo": "https://github.com/deanpeters/Product-Manager-Skills",
+      "entry": "https://github.com/deanpeters/Product-Manager-Skills/blob/e58cff6818f50142bcd64558bfad5bf7a99c6f9b/README.md",
+      "description": "产品经理技能框架：基于实战方法，适配 Claude Code、Codex 等 AI Agent",
+      "categories": [
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 6835,
+      "delta": 551
+    },
+    {
+      "rank": 36,
+      "id": "google-workspace-cli",
+      "name": "googleworkspace/cli",
+      "repo": "https://github.com/googleworkspace/cli",
+      "entry": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/README.md",
+      "description": "Google Workspace 官方命令行技能：Drive、Gmail、日历、表格一体化操作",
+      "categories": [
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 30753,
+      "delta": 519
+    },
+    {
+      "rank": 37,
+      "id": "trailofbits-skills",
+      "name": "trailofbits/skills",
+      "repo": "https://github.com/trailofbits/skills",
+      "entry": "https://github.com/trailofbits/skills/blob/304c81a8cefb6e3c029ebd0d12940ccf0713eccb/README.md",
+      "description": "安全研究专用技能，覆盖漏洞检测、代码审计与渗透测试工作流",
+      "categories": [
+        "developer",
+        "devops"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 6976,
+      "delta": 510
+    },
+    {
+      "rank": 38,
+      "id": "ai-marketing-claude",
+      "name": "zubair-trabzada/ai-marketing-claude",
+      "repo": "https://github.com/zubair-trabzada/ai-marketing-claude",
+      "entry": "https://github.com/zubair-trabzada/ai-marketing-claude/blob/e5aa0ea4c5f30d8bc08771e8ea932463e76d3356/README.md",
+      "description": "Claude Code 营销套件：网站审计、文案生成与邮件自动化",
+      "categories": [
+        "marketing"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 2610,
+      "delta": 336
+    },
+    {
+      "rank": 39,
+      "id": "wondelai-skills",
+      "name": "wondelai/skills",
+      "repo": "https://github.com/wondelai/skills",
+      "entry": "https://github.com/wondelai/skills/blob/6bac1534f9f256a56fc2b4dd0e70b9a692758966/README.md",
+      "description": "来自畅销书的业务、营销、UX 与编码框架技能（50+ 技能）",
+      "categories": [
+        "product",
+        "marketing"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 2106,
+      "delta": 250
+    },
+    {
+      "rank": 40,
+      "id": "aaron-marketing-skills",
+      "name": "aaron-he-zhu/aaron-marketing-skills",
+      "repo": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "entry": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/72877356b2c796f28170ab2d24671deaa27ba8e1/README.md",
+      "description": "120 个营销技能 + 8 个命令：SEO/GEO、KOL、付费广告与邮件",
+      "categories": [
+        "marketing"
+      ],
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 2732,
+      "delta": 214
+    },
+    {
+      "rank": 41,
+      "id": "web-quality-skills",
+      "name": "addyosmani/web-quality-skills",
+      "repo": "https://github.com/addyosmani/web-quality-skills",
+      "entry": "https://github.com/addyosmani/web-quality-skills/blob/95d6e255afe1596b557d7a8498517884438f5b3a/README.md",
+      "description": "基于 Lighthouse 与 Core Web Vitals 的 Web 质量优化技能",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 2754,
+      "delta": 166
+    },
+    {
+      "rank": 42,
+      "id": "ai-marketing-skills",
+      "name": "ericosiu/ai-marketing-skills",
+      "repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "entry": "https://github.com/ericosiu/ai-marketing-skills/blob/511cc89d186a185e7a4faefa4b54e9b74c1ec366/README.md",
+      "description": "开源 AI 营销技能：增长实验、销售漏斗、内容运营、外联与 SEO",
+      "categories": [
+        "marketing"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 3484,
+      "delta": 161
+    },
+    {
+      "rank": 43,
+      "id": "medical-research-skills",
+      "name": "aipoch/medical-research-skills",
+      "repo": "https://github.com/aipoch/medical-research-skills",
+      "entry": "https://github.com/aipoch/medical-research-skills/blob/f5ef65b9bea79b6dd9553f52f95b0d08f7d64d26/README.md",
+      "description": "医学研究技能集：方案设计、数据分析、证据洞察与学术写作",
+      "categories": [
+        "research",
+        "data-analyst"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 1809,
+      "delta": 157
+    },
+    {
+      "rank": 44,
+      "id": "microsoft-skills",
+      "name": "microsoft/skills",
+      "repo": "https://github.com/microsoft/skills",
+      "entry": "https://github.com/microsoft/skills/blob/e58528db9a006528a5fb0a2c029790fa6a9a7c0e/README.md",
+      "description": "微软官方技能与 MCP 集合，为编码 Agent 提供 SDK 相关领域知识",
+      "categories": [
+        "developer",
+        "devops"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 2993,
+      "delta": 128
+    },
+    {
+      "rank": 45,
+      "id": "nevamind-ai-memu",
+      "name": "NevaMind-AI/memU",
+      "repo": "https://github.com/NevaMind-AI/memU",
+      "entry": "https://github.com/NevaMind-AI/memU/blob/96fd3ec08853b40a9e4c743794446553df0a3bc4/SKILL.md",
+      "description": "Personal memory across agents",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 14383,
+      "delta": 117
+    },
+    {
+      "rank": 46,
+      "id": "heilcheng-awesome-agent-skills",
+      "name": "heilcheng/awesome-agent-skills",
+      "repo": "https://github.com/heilcheng/awesome-agent-skills",
+      "entry": "https://github.com/heilcheng/awesome-agent-skills/blob/de9056857eb0e96da833469d2ee3ac392058225d/README.md",
+      "description": "面向工程团队的 Agent Skills 精选目录，含教程与实战指南",
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 6174,
+      "delta": 110
+    },
+    {
+      "rank": 47,
+      "id": "qinyan-academic-skills",
+      "name": "LeonChaoX/qinyan-academic-skills",
+      "repo": "https://github.com/LeonChaoX/qinyan-academic-skills",
+      "entry": "https://github.com/LeonChaoX/qinyan-academic-skills/blob/df5a498a81e0f9c8f79d814446dcf9e9b8f68888/README.md",
+      "description": "182 个可安装的学术研究技能：文献、数据与写作全流程",
+      "categories": [
+        "research",
+        "data-analyst"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 871,
+      "delta": 101
+    },
+    {
+      "rank": 48,
+      "id": "terraform-skill",
+      "name": "antonbabenko/terraform-skill",
+      "repo": "https://github.com/antonbabenko/terraform-skill",
+      "entry": "https://github.com/antonbabenko/terraform-skill/blob/0a3a4a66e99001347d36a41e10260a825be3ab62/README.md",
+      "description": "Terraform/OpenTofu 技能：测试、模块、CI/CD 与生产模式",
+      "categories": [
+        "devops"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 2329,
+      "delta": 84
+    },
+    {
+      "rank": 49,
+      "id": "academic-writing-skills",
+      "name": "bahayonghang/academic-writing-skills",
+      "repo": "https://github.com/bahayonghang/academic-writing-skills",
+      "entry": "https://github.com/bahayonghang/academic-writing-skills/blob/5f824c3fa067aa85340e165246e36f56893768df/README.md",
+      "description": "学术写作技能：BibTeX 检索、LaTeX 修复与投稿审计",
+      "categories": [
+        "writer",
+        "research"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 442,
+      "delta": 49
+    },
+    {
+      "rank": 50,
+      "id": "agent-loop-skills",
+      "name": "gaasher/Agent-Loop-Skills",
+      "repo": "https://github.com/gaasher/Agent-Loop-Skills",
+      "entry": "https://github.com/gaasher/Agent-Loop-Skills/blob/f1169e6db0b0f8a83ced3a18562b7c57e14a748a/README.md",
+      "description": "自动化迭代循环技能：自动研究、科学写作、数据分析与 SQL 优化",
+      "categories": [
+        "research",
+        "data-analyst"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 163,
+      "delta": 16
+    },
+    {
+      "rank": 51,
+      "id": "terminal-skills",
+      "name": "chaterm/terminal-skills",
+      "repo": "https://github.com/chaterm/terminal-skills",
+      "entry": "https://github.com/chaterm/terminal-skills/blob/464c2954287ad0c0b9addb1ebfbb2150ddc0de24/README.md",
+      "description": "终端与 Kubernetes 的公开 Agent 技能",
+      "categories": [
+        "devops"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 58,
+      "delta": 8
     }
   ],
   "yearly": [
@@ -956,7 +1795,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 279391,
+      "stars": 282116,
       "delta": null
     },
     {
@@ -974,7 +1813,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 172482,
+      "stars": 174579,
       "delta": null
     },
     {
@@ -990,7 +1829,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 116420,
+      "stars": 128000,
       "delta": null
     },
     {
@@ -1006,7 +1845,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 90736,
+      "stars": 92457,
       "delta": null
     },
     {
@@ -1023,7 +1862,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 82193,
+      "stars": 84620,
       "delta": null
     },
     {
@@ -1040,7 +1879,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 73945,
+      "stars": 74547,
       "delta": null
     },
     {
@@ -1057,7 +1896,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 69737,
+      "stars": 70706,
       "delta": null
     },
     {
@@ -1073,7 +1912,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 53199,
+      "stars": 53568,
       "delta": null
     },
     {
@@ -1090,7 +1929,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 52245,
+      "stars": 52399,
       "delta": null
     },
     {
@@ -1107,7 +1946,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 47509,
+      "stars": 47903,
       "delta": null
     },
     {
@@ -1123,7 +1962,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 46080,
+      "stars": 47124,
       "delta": null
     },
     {
@@ -1139,27 +1978,11 @@
       "platforms": [
         "multi"
       ],
-      "stars": 45654,
+      "stars": 46024,
       "delta": null
     },
     {
       "rank": 13,
-      "id": "wshobson-agents",
-      "name": "wshobson/agents",
-      "repo": "https://github.com/wshobson/agents",
-      "entry": "https://github.com/wshobson/agents/blob/c4b82b0ad771190355eb8e204b1329732a18449a/README.md",
-      "description": "多平台智能体插件市场，覆盖 Claude Code、Codex CLI、Cursor 等",
-      "categories": [
-        "developer"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 39248,
-      "delta": null
-    },
-    {
-      "rank": 14,
       "id": "humanizer",
       "name": "blader/humanizer",
       "repo": "https://github.com/blader/humanizer",
@@ -1171,27 +1994,11 @@
       "platforms": [
         "multi"
       ],
-      "stars": 38815,
+      "stars": 43506,
       "delta": null
     },
     {
-      "rank": 15,
-      "id": "awesome-copilot",
-      "name": "github/awesome-copilot",
-      "repo": "https://github.com/github/awesome-copilot",
-      "entry": "https://github.com/github/awesome-copilot/blob/55b952d2f9bd5b092d2f4b87fdbcf205a1a5ccc5/README.md",
-      "description": "GitHub Copilot 社区技能、指令与配置合集",
-      "categories": [
-        "developer"
-      ],
-      "platforms": [
-        "copilot"
-      ],
-      "stars": 38422,
-      "delta": null
-    },
-    {
-      "rank": 16,
+      "rank": 14,
       "id": "claude-scientific-skills",
       "name": "K-Dense-AI/claude-scientific-skills",
       "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
@@ -1204,11 +2011,27 @@
       "platforms": [
         "multi"
       ],
-      "stars": 37998,
+      "stars": 42961,
       "delta": null
     },
     {
-      "rank": 17,
+      "rank": 15,
+      "id": "wshobson-agents",
+      "name": "wshobson/agents",
+      "repo": "https://github.com/wshobson/agents",
+      "entry": "https://github.com/wshobson/agents/blob/c4b82b0ad771190355eb8e204b1329732a18449a/README.md",
+      "description": "多平台智能体插件市场，覆盖 Claude Code、Codex CLI、Cursor 等",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 39448,
+      "delta": null
+    },
+    {
+      "rank": 16,
       "id": "nature-skills",
       "name": "Yuan1z0825/nature-skills",
       "repo": "https://github.com/Yuan1z0825/nature-skills",
@@ -1221,7 +2044,23 @@
       "platforms": [
         "multi"
       ],
-      "stars": 37815,
+      "stars": 39398,
+      "delta": null
+    },
+    {
+      "rank": 17,
+      "id": "awesome-copilot",
+      "name": "github/awesome-copilot",
+      "repo": "https://github.com/github/awesome-copilot",
+      "entry": "https://github.com/github/awesome-copilot/blob/55b952d2f9bd5b092d2f4b87fdbcf205a1a5ccc5/README.md",
+      "description": "GitHub Copilot 社区技能、指令与配置合集",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "copilot"
+      ],
+      "stars": 38669,
       "delta": null
     },
     {
@@ -1237,7 +2076,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 35430,
+      "stars": 35942,
       "delta": null
     },
     {
@@ -1254,7 +2093,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 33266,
+      "stars": 33790,
       "delta": null
     },
     {
@@ -1270,7 +2109,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 30644,
+      "stars": 30753,
       "delta": null
     },
     {
@@ -1287,7 +2126,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 29972,
+      "stars": 30471,
       "delta": null
     },
     {
@@ -1304,7 +2143,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 29503,
+      "stars": 30051,
       "delta": null
     },
     {
@@ -1320,7 +2159,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 27060,
+      "stars": 28683,
       "delta": null
     },
     {
@@ -1337,7 +2176,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 26415,
+      "stars": 26648,
       "delta": null
     },
     {
@@ -1353,11 +2192,27 @@
       "platforms": [
         "multi"
       ],
-      "stars": 25783,
+      "stars": 26024,
       "delta": null
     },
     {
       "rank": 26,
+      "id": "op7418-guizang-ppt-skill",
+      "name": "op7418/guizang-ppt-skill",
+      "repo": "https://github.com/op7418/guizang-ppt-skill",
+      "entry": "https://github.com/op7418/guizang-ppt-skill/blob/c91369c449d34755d320a8b81d0734000d99d1ab/SKILL.md",
+      "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "categories": [
+        "designer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 25679,
+      "delta": null
+    },
+    {
+      "rank": 27,
       "id": "baoyu-skills",
       "name": "JimLiu/baoyu-skills",
       "repo": "https://github.com/JimLiu/baoyu-skills",
@@ -1370,23 +2225,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 25461,
-      "delta": null
-    },
-    {
-      "rank": 27,
-      "id": "openai-skills",
-      "name": "openai/skills",
-      "repo": "https://github.com/openai/skills",
-      "entry": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/README.md",
-      "description": "OpenAI 官方 Codex 技能目录，提供面向 Codex 的 SKILL.md 技能集合",
-      "categories": [
-        "developer"
-      ],
-      "platforms": [
-        "codex"
-      ],
-      "stars": 25273,
+      "stars": 25674,
       "delta": null
     },
     {
@@ -1402,23 +2241,23 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 25223,
+      "stars": 25582,
       "delta": null
     },
     {
       "rank": 29,
-      "id": "op7418-guizang-ppt-skill",
-      "name": "op7418/guizang-ppt-skill",
-      "repo": "https://github.com/op7418/guizang-ppt-skill",
-      "entry": "https://github.com/op7418/guizang-ppt-skill/blob/c91369c449d34755d320a8b81d0734000d99d1ab/SKILL.md",
-      "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "id": "openai-skills",
+      "name": "openai/skills",
+      "repo": "https://github.com/openai/skills",
+      "entry": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/README.md",
+      "description": "OpenAI 官方 Codex 技能目录，提供面向 Codex 的 SKILL.md 技能集合",
       "categories": [
-        "designer"
+        "developer"
       ],
       "platforms": [
-        "multi"
+        "codex"
       ],
-      "stars": 25173,
+      "stars": 25461,
       "delta": null
     },
     {
@@ -1435,7 +2274,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 24859,
+      "stars": 25068,
       "delta": null
     },
     {
@@ -1451,7 +2290,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 24138,
+      "stars": 24374,
       "delta": null
     },
     {
@@ -1467,7 +2306,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 24138,
+      "stars": 24374,
       "delta": null
     },
     {
@@ -1483,7 +2322,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 19004,
+      "stars": 19166,
       "delta": null
     },
     {
@@ -1499,7 +2338,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 15794,
+      "stars": 16390,
       "delta": null
     },
     {
@@ -1515,7 +2354,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 15445,
+      "stars": 15755,
       "delta": null
     },
     {
@@ -1531,27 +2370,11 @@
       "platforms": [
         "multi"
       ],
-      "stars": 14359,
+      "stars": 14383,
       "delta": null
     },
     {
       "rank": 37,
-      "id": "ai-research-skills",
-      "name": "Orchestra-Research/AI-Research-SKILLs",
-      "repo": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
-      "entry": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/README.md",
-      "description": "AI 研究与工程技能库：选题、ML 论文写作与学术绘图",
-      "categories": [
-        "research"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 12154,
-      "delta": null
-    },
-    {
-      "rank": 38,
       "id": "nidhinjs-prompt-master",
       "name": "nidhinjs/prompt-master",
       "repo": "https://github.com/nidhinjs/prompt-master",
@@ -1563,11 +2386,43 @@
       "platforms": [
         "multi"
       ],
-      "stars": 12000,
+      "stars": 12399,
+      "delta": null
+    },
+    {
+      "rank": 38,
+      "id": "ai-research-skills",
+      "name": "Orchestra-Research/AI-Research-SKILLs",
+      "repo": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "entry": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/README.md",
+      "description": "AI 研究与工程技能库：选题、ML 论文写作与学术绘图",
+      "categories": [
+        "research"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 12339,
       "delta": null
     },
     {
       "rank": 39,
+      "id": "vincentwei1021-video-shotcraft",
+      "name": "Vincentwei1021/video-shotcraft",
+      "repo": "https://github.com/Vincentwei1021/video-shotcraft",
+      "entry": "https://github.com/Vincentwei1021/video-shotcraft/blob/41ee360d82f4c491ba9d88a24a4add7d8ff1cf8b/SKILL.md",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+      "categories": [
+        "product"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 7546,
+      "delta": null
+    },
+    {
+      "rank": 40,
       "id": "trailofbits-skills",
       "name": "trailofbits/skills",
       "repo": "https://github.com/trailofbits/skills",
@@ -1580,11 +2435,11 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6908,
+      "stars": 6976,
       "delta": null
     },
     {
-      "rank": 40,
+      "rank": 41,
       "id": "product-manager-skills",
       "name": "deanpeters/Product-Manager-Skills",
       "repo": "https://github.com/deanpeters/Product-Manager-Skills",
@@ -1596,27 +2451,27 @@
       "platforms": [
         "multi"
       ],
-      "stars": 6728,
-      "delta": null
-    },
-    {
-      "rank": 41,
-      "id": "vincentwei1021-video-shotcraft",
-      "name": "Vincentwei1021/video-shotcraft",
-      "repo": "https://github.com/Vincentwei1021/video-shotcraft",
-      "entry": "https://github.com/Vincentwei1021/video-shotcraft/blob/41ee360d82f4c491ba9d88a24a4add7d8ff1cf8b/SKILL.md",
-      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
-      "categories": [
-        "product"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 6676,
+      "stars": 6835,
       "delta": null
     },
     {
       "rank": 42,
+      "id": "anbeime-skill",
+      "name": "anbeime/skill",
+      "repo": "https://github.com/anbeime/skill",
+      "entry": "https://github.com/anbeime/skill/blob/c54ef738f2aa0b06b78d669761d510e12b4dd864/SKILL.md",
+      "description": "收录最全、更新最快的技能Skills 商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的 72 个精选技能包。所有技能已打包完成，可直接安装使用！ 该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理。",
+      "categories": [
+        "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 6227,
+      "delta": null
+    },
+    {
+      "rank": 43,
       "id": "heilcheng-awesome-agent-skills",
       "name": "heilcheng/awesome-agent-skills",
       "repo": "https://github.com/heilcheng/awesome-agent-skills",
@@ -1629,43 +2484,11 @@
       "platforms": [
         "multi"
       ],
-      "stars": 6155,
-      "delta": null
-    },
-    {
-      "rank": 43,
-      "id": "anbeime-skill",
-      "name": "anbeime/skill",
-      "repo": "https://github.com/anbeime/skill",
-      "entry": "https://github.com/anbeime/skill/blob/c54ef738f2aa0b06b78d669761d510e12b4dd864/SKILL.md",
-      "description": "收录最全、更新最快的技能Skills 商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的 72 个精选技能包。所有技能已打包完成，可直接安装使用！ 该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理。",
-      "categories": [
-        "developer"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 5931,
+      "stars": 6174,
       "delta": null
     },
     {
       "rank": 44,
-      "id": "ai-marketing-skills",
-      "name": "ericosiu/ai-marketing-skills",
-      "repo": "https://github.com/ericosiu/ai-marketing-skills",
-      "entry": "https://github.com/ericosiu/ai-marketing-skills/blob/511cc89d186a185e7a4faefa4b54e9b74c1ec366/README.md",
-      "description": "开源 AI 营销技能：增长实验、销售漏斗、内容运营、外联与 SEO",
-      "categories": [
-        "marketing"
-      ],
-      "platforms": [
-        "multi"
-      ],
-      "stars": 3459,
-      "delta": null
-    },
-    {
-      "rank": 45,
       "id": "notfair-plugin",
       "name": "nowork-studio/notfair-plugin",
       "repo": "https://github.com/nowork-studio/notfair-plugin",
@@ -1677,7 +2500,23 @@
       "platforms": [
         "multi"
       ],
-      "stars": 3430,
+      "stars": 3485,
+      "delta": null
+    },
+    {
+      "rank": 45,
+      "id": "ai-marketing-skills",
+      "name": "ericosiu/ai-marketing-skills",
+      "repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "entry": "https://github.com/ericosiu/ai-marketing-skills/blob/511cc89d186a185e7a4faefa4b54e9b74c1ec366/README.md",
+      "description": "开源 AI 营销技能：增长实验、销售漏斗、内容运营、外联与 SEO",
+      "categories": [
+        "marketing"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "stars": 3484,
       "delta": null
     },
     {
@@ -1694,7 +2533,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 2967,
+      "stars": 2993,
       "delta": null
     },
     {
@@ -1710,7 +2549,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 2724,
+      "stars": 2754,
       "delta": null
     },
     {
@@ -1726,7 +2565,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 2674,
+      "stars": 2732,
       "delta": null
     },
     {
@@ -1742,7 +2581,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 2571,
+      "stars": 2610,
       "delta": null
     },
     {
@@ -1758,7 +2597,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 2314,
+      "stars": 2329,
       "delta": null
     },
     {
@@ -1775,7 +2614,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 2058,
+      "stars": 2106,
       "delta": null
     },
     {
@@ -1792,7 +2631,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 1782,
+      "stars": 1809,
       "delta": null
     },
     {
@@ -1809,7 +2648,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 846,
+      "stars": 871,
       "delta": null
     },
     {
@@ -1826,7 +2665,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 431,
+      "stars": 442,
       "delta": null
     },
     {
@@ -1843,7 +2682,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 157,
+      "stars": 163,
       "delta": null
     },
     {
@@ -1859,7 +2698,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 57,
+      "stars": 58,
       "delta": null
     },
     {
@@ -1893,7 +2732,7 @@
       "platforms": [
         "multi"
       ],
-      "stars": 19,
+      "stars": 22,
       "delta": null
     },
     {
