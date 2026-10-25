@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-25",
   "skills": [
     {
       "id": "anthropics-skills",
@@ -1005,6 +1005,22 @@
       "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
       "categories": [
         "developer"
+      ],
+      "platforms": [
+        "multi"
+      ],
+      "tags": [
+        "auto"
+      ]
+    },
+    {
+      "id": "alchaincyf-huashu-design",
+      "name": "alchaincyf/huashu-design",
+      "repo": "https://github.com/alchaincyf/huashu-design",
+      "entry": "https://github.com/alchaincyf/huashu-design/blob/4fc7bfdbd5ec3fa2d43ce7a6433de60976a5e4b1/SKILL.md",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "categories": [
+        "designer"
       ],
       "platforms": [
         "multi"
